@@ -1,2 +1,4 @@
 # learning-project
-This program is only for our learning purpose.
+This repo is used to learn DSA...
+
+#DSA #data_structure_algorithim 
