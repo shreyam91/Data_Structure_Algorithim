@@ -1,29 +1,52 @@
 package Shreyam;
 
 public class MergeSortedArray {
+    public static void mergeArrays(int arr1[], int arr2[]){
+        int m = arr1.length;
+        int n = arr2.length;
+        int j;
+
+        for (int i=n-1; i>=0; i--) {
+            int last = arr1[m-1];
+            for( j = m-2; j>=0 && arr1[j] > arr2[i]; j-- ) {
+                arr1[j+1] = arr1[j];
+            }
+            if(j!= m-2 || last > arr2[i]){
+                arr1[j+1] = arr2[i];
+                arr2[i] = last;
+            }
+        }
+    }
     public static void main(String[] args) {
-        System.out.println("There are two sorted arrays: ");
-        int arr1 [] = {5,6,7,8,9};
-        int arr2 [] = {11,12,13,14,15,16};
-        int length1 = arr1.length;
-        int length2 = arr2.length;
-        int arr3 [] ={};
+        int arr1[] = {1,5,7,9};
+        int arr2[] = {2,6,8,};
+        int arr3[] = {};
 
-        if(length1 > length2){
-            System.out.println("length1 is greater than length2");
+        int m = arr1.length;
+        int n = arr2.length;
+
+        int k = m+n;
+        System.out.println("k"+k);
+
+        mergeArrays(arr1,arr2);
+
+        System.out.println("Merged arr1:");
+        for(int num:arr1){
+            System.out.print(num +" ");
         }
-        else{
-            System.out.println("length1 is less than length2");
+        System.out.println();
+
+        System.out.println("Merged arr2:");
+        for(int num:arr2){
+            System.out.print(num +" ");
         }
 
-        for(int i = 0; i > arr2.length; i++){
-            if(arr1[i] > arr2[i]){
-                for (int j = 1; j > 11; j++){
-                    arr3[i] = arr1[i] + arr2[i];
-                }
-                System.out.println("array 3 "+ arr3[i]);
+        System.out.println("All arrays are merged");
+        for(int i=1; i<k; i++){
+            System.out.println("arr3"+ arr3[i]);
         }
+
+        
     }
-
-    }
+    
 }
