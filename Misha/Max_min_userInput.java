@@ -12,13 +12,16 @@ public class Max_min_userInput {
     System.out.println( "enter arrary length ");
     int num = sc.nextInt();
     int arr[] = new int[num];
-    int min = arr[0];
-    int max= arr[0];
+   
 
     System.out.println("input numbers");
-    for(int i=0;i<=arr.length-1;i++){
+    for(int i=0;i<arr.length;i++){
         arr[i]=sc.nextInt();
-        
+    }
+    int min = arr[0];
+    int max= arr[0];
+    for(int i=0;i<arr.length;i++){
+
         if(arr[i]<min){
             min=arr[i];
         }
