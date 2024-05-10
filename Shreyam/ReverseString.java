@@ -11,3 +11,6 @@ public class ReverseString {
     }
     
 }
+
+
+// `StringBuilder` in Java is like a mutable sequence of characters. Ut allows you to efficinently modify strings without creating new instances of strings every time you make a change...
