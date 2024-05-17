@@ -16,6 +16,7 @@ public class Max_min_userInput {
 
     System.out.println("input numbers");
     for(int i=0;i<arr.length;i++){
+        
         arr[i]=sc.nextInt();
     }
     int min = arr[0];
