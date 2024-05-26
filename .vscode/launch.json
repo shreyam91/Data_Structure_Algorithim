@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "unionIntersection",
+            "request": "launch",
+            "mainClass": "Shreyam.unionIntersection",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "integerToRoman",
             "request": "launch",
             "mainClass": "Shreyam.integerToRoman",
