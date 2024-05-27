@@ -25,8 +25,22 @@ public class intersectionNumber {
             }
 
             //one array exhaust 
+            if(left>=arr1.length || right>=arr2.length){
+                break;
+            }
 
             //comparison 
+            if(arr1[left]<arr2[right]){
+                left++;
+            }else if(arr1[left]>arr2[right]){
+                right++;
+            }else{
+                res.add(arr1[left]);
+                left++;
+                right++;
+            }
+
         }
+        System.out.println(res);
     }
 }

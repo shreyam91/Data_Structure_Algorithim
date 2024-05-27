@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "intersectionNumber",
+            "request": "launch",
+            "mainClass": "Shreyam.intersectionNumber",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "unionIntersection",
             "request": "launch",
             "mainClass": "Shreyam.unionIntersection",
