@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "intersectionNumber",
+            "request": "launch",
+            "mainClass": "Shreyam.intersectionNumber",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
+            "name": "unionIntersection",
+            "request": "launch",
+            "mainClass": "Shreyam.unionIntersection",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
+            "name": "integerToRoman",
+            "request": "launch",
+            "mainClass": "Shreyam.integerToRoman",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
+            "name": "Run with AppMap",
+            "request": "launch",
+            "mainClass": "",
+            "vmArgs": "-javaagent:${userHome}/.appmap/lib/java/appmap.jar"
+        }
+    ]
+}

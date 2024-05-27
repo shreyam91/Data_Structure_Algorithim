@@ -38,5 +38,14 @@
         "terminal.ansiWhite": "#526057",
         "terminal.ansiYellow": "#A07E3B"
     },
-    "peacock.color": "#007fff"
+    "peacock.color": "#007fff",
+    "java.test.config": [
+        {
+            "name": "Test with AppMap",
+            "vmArgs": [
+                "-javaagent:${userHome}/.appmap/lib/java/appmap.jar",
+                "-Dappmap.output.directory=${command:appmap.getAppmapDir}"
+            ]
+        }
+    ]
 }
