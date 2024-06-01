@@ -31,5 +31,7 @@ public class scoreOfString {
         
         int result = scoreOfStr(inputString);
         System.out.println("Score of the string: " + result);
+
+        scanner.close();
     }
 }
