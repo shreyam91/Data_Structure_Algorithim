@@ -3,7 +3,7 @@ package Shreyam;
 public class ReverseStringNew {
 
     public static void main(String[] args) {
-        String original = "Data Structure & Algortithim";
+        String original = "Structure";
         String reverse = reverseString(original);
 
         System.out.println("Original: " + original);

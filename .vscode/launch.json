@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "Shreyam.ReverseString",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringNew",
+            "request": "launch",
+            "mainClass": "Shreyam.ReverseStringNew",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "scoreOfString",
             "request": "launch",
             "mainClass": "Shreyam.scoreOfString",
