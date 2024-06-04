@@ -2,11 +2,13 @@ package Shreyam;
 
 public class appendCharacters {
     public static void main(String [] args){
+
+        appendCharacters ac = new appendCharacters();
         String s = "coaching";
         String t = "coding";
 
         // char[] appendCharacters;
-        System.out.println(appendCharactersSubsequence);
+        System.out.println(ac.appendCharactersSubsequence(s, t));
         
     }
 

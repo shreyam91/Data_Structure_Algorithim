@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "appendCharacters",
+            "request": "launch",
+            "mainClass": "Shreyam.appendCharacters",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
+            "name": "longestPalindrome",
+            "request": "launch",
+            "mainClass": "Shreyam.longestPalindrome",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "ReverseString",
             "request": "launch",
             "mainClass": "Shreyam.ReverseString",
