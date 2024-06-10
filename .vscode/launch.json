@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "heightChecker",
+            "request": "launch",
+            "mainClass": "LeetCode.heightChecker",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "PromPairing",
             "request": "launch",
             "mainClass": "Shreyam.PromPairing",
