@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "relativeSortArray",
+            "request": "launch",
+            "mainClass": "LeetCode.relativeSortArray",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "heightChecker",
             "request": "launch",
             "mainClass": "LeetCode.heightChecker",
