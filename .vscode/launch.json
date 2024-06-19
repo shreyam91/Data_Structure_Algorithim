@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Subarray_WithSumZero",
+            "request": "launch",
+            "mainClass": "Misha.Subarray_WithSumZero",
+            "projectName": "DSA-mine_3df97b1"
+        },
+        {
+            "type": "java",
+            "name": "KthMaxMinElement",
+            "request": "launch",
+            "mainClass": "Misha.KthMaxMinElement",
+            "projectName": "DSA-mine_3df97b1"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Misha.Hello",
+            "projectName": "DSA-mine_3df97b1"
+        },
+        {
+            "type": "java",
             "name": "relativeSortArray",
             "request": "launch",
             "mainClass": "LeetCode.relativeSortArray",
