@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Reverse_array",
+            "request": "launch",
+            "mainClass": "Shreyam.Reverse_array",
+            "projectName": "DSA_bc3ba3af"
+        },
+        {
+            "type": "java",
+            "name": "Hello1",
+            "request": "launch",
+            "mainClass": "Misha.Hello1",
+            "projectName": "DSA_bc3ba3af"
+        },
+        {
+            "type": "java",
             "name": "relativeSortArray",
             "request": "launch",
             "mainClass": "LeetCode.relativeSortArray",
