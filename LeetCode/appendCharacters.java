@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class appendCharacters {
     public static void main(String [] args){

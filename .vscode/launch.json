@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "intersectionOfTwoArray",
+            "request": "launch",
+            "mainClass": "intersectionOfTwoArray",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
+            "name": "romanToInteger",
+            "request": "launch",
+            "mainClass": "romanToInteger",
+            "projectName": "DSA_aa123eed"
+        },
+        {
+            "type": "java",
             "name": "Reverse_array",
             "request": "launch",
             "mainClass": "Shreyam.Reverse_array",

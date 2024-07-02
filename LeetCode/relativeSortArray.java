@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class relativeSortArray {
     public static void main(String[] args) {
