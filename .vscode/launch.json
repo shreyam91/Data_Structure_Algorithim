@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pattern_reverse",
+            "request": "launch",
+            "mainClass": "Java.pattern_reverse",
+            "projectName": "Data_Structure_Algorithim_9fd8e2ca"
+        },
+        {
+            "type": "java",
             "name": "pattern",
             "request": "launch",
             "mainClass": "Java.pattern",
