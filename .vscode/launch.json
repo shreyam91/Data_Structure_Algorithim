@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "Java.binarySearch",
+            "projectName": "Data_Structure_Algorithim_9fd8e2ca"
+        },
+        {
+            "type": "java",
+            "name": "linearSearch",
+            "request": "launch",
+            "mainClass": "Java.linearSearch",
+            "projectName": "Data_Structure_Algorithim_9fd8e2ca"
+        },
+        {
+            "type": "java",
+            "name": "romanToInteger",
+            "request": "launch",
+            "mainClass": "romanToInteger",
+            "projectName": "Data_Structure_Algorithim_9fd8e2ca"
+        },
+        {
+            "type": "java",
             "name": "pattern_reverse",
             "request": "launch",
             "mainClass": "Java.pattern_reverse",

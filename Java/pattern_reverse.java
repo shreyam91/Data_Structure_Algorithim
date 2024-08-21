@@ -7,7 +7,7 @@ public class pattern_reverse {
 
         for (int i = 0; i <= rows; i++) {
             int numberOfStars = stars+2*i;
-            int spaces = rows-i-1;
+            int spaces = rows-i;
             // int spaces = (stars + numberOfStars) * 2;
 
             for (int j = 0; j <= spaces; j++) {
@@ -16,6 +16,7 @@ public class pattern_reverse {
 
             for (int j = 0; j <numberOfStars; j++) {
                 System.out.print("*");
+                System.out.print(" ");
             }
 
             System.out.println();
