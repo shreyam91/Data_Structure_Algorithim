@@ -16,7 +16,7 @@ public class pattern_reverse {
 
             for (int j = 0; j <numberOfStars; j++) {
                 System.out.print("*");
-                System.out.print(" ");
+                // System.out.print(" ");
             }
 
             System.out.println();
