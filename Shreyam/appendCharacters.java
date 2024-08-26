@@ -1,14 +1,10 @@
 package Shreyam;
 
-
-public class appendCharacters {
-    public static void main(String [] args){
-
-        appendCharacters ac = new appendCharacters();
+public class AppendCharacters {
+    public static void main(String[] args) {
+        AppendCharacters ac = new AppendCharacters();
         String s = "coaching";
         String t = "coding";
-
-        // char[] appendCharacters;
         System.out.println(ac.appendCharactersSubsequence(s, t));
         
     }
@@ -23,5 +19,4 @@ public class appendCharacters {
 
         return t.length() - i;
     }
-    
 }
