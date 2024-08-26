@@ -1,8 +1,8 @@
 package Shreyam;
 
-public class AppendCharacters {
+public class appendCharacters {
     public static void main(String[] args) {
-        AppendCharacters ac = new AppendCharacters();
+        appendCharacters ac = new appendCharacters();
         String s = "coaching";
         String t = "coding";
         System.out.println(ac.appendCharactersSubsequence(s, t));

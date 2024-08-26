@@ -5,7 +5,7 @@ public class SumOfNatural {
         int natural =5;
         int sum=0;
 
-        for(int i=0; i<=natural; i++){
+        for(int i=1; i<=natural; i++){
             if(i==natural){
                 System.out.print(i+"=");
             }

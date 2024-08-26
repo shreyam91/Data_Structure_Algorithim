@@ -11,10 +11,29 @@ public class checkCharacter {
         //     System.out.println(ch + " is consonant");
         // }
 
-        String st = "hello";
+        String st = "hello world!";
+        int vowel=0;
+        int consonant=0;
+        // char ch ='';
 
-        char c = st.charAt(0);
+        for(int i=0;i<st.length();i++){
 
-        System.out.println("string to character" + c);    
+            char ch = st.charAt(i);
+
+
+        if(ch=='a'||ch=='e'||ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E'||ch=='I' || ch=='O'|| ch=='U'){
+                // System.out.println(ch + " is vowel");
+                vowel++;
+            }
+            else{
+                // System.out.println(ch + " is consonant");
+                consonant++;
+            }
+        }
+
+
+        // System.out.println("string to character " + ch);   
+        System.out.println("vowel "+vowel);
+        System.out.println("consonant "+consonant); 
     }
 }
