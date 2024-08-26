@@ -1,4 +1,4 @@
-package Java;
+package Shreyam;
 
 public class stringScore {
     public static int stringScore(String str,int ans){

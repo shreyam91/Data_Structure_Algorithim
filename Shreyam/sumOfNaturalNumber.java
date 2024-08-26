@@ -1,4 +1,4 @@
-package Java;
+package Shreyam;
 
 public class sumOfNaturalNumber {
     public static void main(String[] args) {
