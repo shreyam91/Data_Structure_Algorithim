@@ -11,7 +11,7 @@ public class checkCharacter {
         //     System.out.println(ch + " is consonant");
         // }
 
-        String st = "hello world!";
+        String st = "hello world java!";
         int vowel=0;
         int consonant=0;
         int spacialChar =0;
@@ -20,7 +20,6 @@ public class checkCharacter {
         for(int i=0;i<st.length();i++){
 
             char ch = st.charAt(i);
-
 
         if(ch=='a'||ch=='e'||ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E'||ch=='I' || ch=='O'|| ch=='U'){
                 // System.out.println(ch + " is vowel");
