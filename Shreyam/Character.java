@@ -1,15 +1,21 @@
 package Shreyam;
+import java.util.Scanner;
 
 public class Character {
     public static void main(String[] args) {
-        // String st = "Misha Shambhavi";
-        // int count =0;
-        // String[] sm = st.split(" ");
+        Scanner scanner= new Scanner(System.in);
+        
 
-        // for(String sms:sm){
+        String st = scanner.nextLine();
+        String[] sm = st.split(" ");
+        
+        for(String sms:sm){
+            System.out.println(sms.charAt(0));
+        }
+
+        scanner.close();
         //     char ch = st.charAt(0);
-        //     System.out.println(ch);
-        // }
+        // int count =0;
 
         // System.out.println(st.charAt(0)); //M
         // System.out.println(st.charAt(6)); //S
@@ -42,17 +48,41 @@ public class Character {
         //     }
         // }
 
-        String sr = "Misha Shambhavi";
+        // String sr = "Misha Shambhavi";
         
-        for(int i=0;i<sr.length();i++){
-            char ch = sr.charAt(i);
+    //     for(int i=0;i<sr.length();i++){
+    //         // char ch = sr.charAt(i);
+    //         char ch = sr.charAt(i);
+    //         System.out.println(ch);
 
-            System.out.println(ch);
-            if(ch == ' '){
-                break;
-            }
+    //         if (Character.isUpperCase(ch)){
+    //             // System.out.println(ch);
+    //             System.out.println("upper case");
+    //         }else{
+    //             System.out.println("lower");
+    //         }
+    //         // if(ch == ' '){
+    //         //     break;
+    //         //     continue;
+    //         // }
 
-        }
+    //     }
+
+    // for(int i=0; i<sr.length();i++){
+    //     char val = sr.charAt(i);
+    //     System.out.println("Character: "+val);
+
+        
+  
+        // if (Character.isUpperCase(val)) {
+        //    System.out.println("Character is in Uppercase!");
+        // }else {
+        //    System.out.println("Character is in Lowercase!");
+        //   //  break;
+        // }
+        // }
 
     }
+
+    
 }
