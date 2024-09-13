@@ -1,7 +1,7 @@
 package Shreyam;
 
 public class stringScore {
-    public static int stringScore(String str,int ans){
+    public static int stringScoreS(String str,int ans){
         ans=0;
 
         for(int i=1;i<str.length();i++)
@@ -13,7 +13,7 @@ public class stringScore {
         String str = "Hello";
         int result=0;
         
-        result = stringScore(str, result);
+        // result = stringScoreS(str, result);
         // System.out.println("sum " + ans); 
     }
 }
