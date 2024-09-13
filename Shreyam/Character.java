@@ -84,10 +84,5 @@ public class Character {
 
     }
 
-    public static boolean isDigit(char c) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'isDigit'");
-    }
-
     
 }
