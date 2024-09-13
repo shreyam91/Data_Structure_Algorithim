@@ -1,4 +1,4 @@
-package BinarySearch;
+package Shreyam.BinarySearch;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
@@ -9,7 +9,7 @@ public class BinarySearch {
             if(target == arr[mid])
                 return mid;
             
-                if(arr[mid] < target){
+                else if(arr[mid] < target){
                     end = mid+1;
                 }
                 else{
