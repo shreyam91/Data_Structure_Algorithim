@@ -2,7 +2,7 @@ package Shreyam.BinarySearch;
 
 public class OrderUnknown {
     public static int orderUnknown(int []arr, int target){
-        int start =0, end = arr.length-1;
+        // int start =0, end = arr.length-1;
         
 
         return -1;
