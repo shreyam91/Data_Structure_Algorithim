@@ -18,16 +18,16 @@ public class OrderUnknown {
             }
             
             if (isAscending) {
-                if (target < arr[mid]) {
-                    end = mid - 1;
-                } else {
+                if (arr[mid] < target) {
                     start = mid + 1;
+                } else {
+                    end = mid - 1;
                 }
             } else {
-                if (target > arr[mid]) {
-                    end = mid - 1;
-                } else {
+                if (arr[mid] > target) {
                     start = mid + 1;
+                } else {
+                    end = mid - 1;
                 }
             }
         }
@@ -35,7 +35,7 @@ public class OrderUnknown {
         return -1;
     }
     public static void main(String[] args) {
-        int arr[] = {92,84,66,58,42,15,9};
+        int arr[] = {9,12,24,35,67,89};
         int target = 42;
 
         int Result = orderUnknown(arr, target);
