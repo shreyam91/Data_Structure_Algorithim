@@ -3,17 +3,17 @@ import java.util.Scanner;
 
 public class Character {
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         
 
-        String st = scanner.nextLine();
+        String st = sc.nextLine();
         String[] sm = st.split(" ");
         
         for(String sms:sm){
             System.out.println(sms.charAt(0));
         }
 
-        scanner.close();
+        sc.close();
         //     char ch = st.charAt(0);
         // int count =0;
 

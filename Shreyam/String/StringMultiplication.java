@@ -1,6 +1,6 @@
 package Shreyam.String;
 
-// import java.util.Character;
+import java.lang.Character;
 
 
 public class StringMultiplication {
