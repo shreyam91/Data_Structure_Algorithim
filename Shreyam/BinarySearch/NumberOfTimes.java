@@ -26,7 +26,7 @@ public class NumberOfTimes {
         return 0;
     }
     public static void main(String[] args) {
-        int[] arr = {22,27,34,45,5,8,9,10};
+        int[] arr = {12,24,45,7,8,9};
         int Result= numberOfTime(arr);
 
         if(Result == 0){
