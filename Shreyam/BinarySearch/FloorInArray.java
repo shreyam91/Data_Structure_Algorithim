@@ -3,7 +3,7 @@ package Shreyam.BinarySearch;
 public class FloorInArray {
     public static int floorElemment(int[]arr,int target){
         int start = 0, end = arr.length-1;
-        int res =0;
+        int res =-1;
 
         while(start <= end){
             int mid= start + (end-start)/2;
@@ -12,7 +12,7 @@ public class FloorInArray {
                 return mid;
             }
             else if(arr[mid] <= target){
-                res = arr[mid];
+                res = mid;
                 start = mid+1;
             }
             else{
@@ -23,14 +23,14 @@ public class FloorInArray {
     }
     public static void main(String[] args) {
         int[] arr = {2,5,7,9,11,14,18,20};
-        int target = 17;
+        int target = 11;
 
         int Result = floorElemment(arr, target);
 
         if(Result == -1){
             System.out.println("no floor found");
         }else{
-            System.out.println("Floor of element found at:" + Result);
+            System.out.println("Floor of element found at:" + Result + "value:" + arr[Result]);
         }
     }
 }
