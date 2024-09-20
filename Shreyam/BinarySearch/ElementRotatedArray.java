@@ -29,10 +29,9 @@ public class ElementRotatedArray {
         return -1;
     }
 
-
     public static void main(String[] args) {
         int[] arr = {22,27,34,45,5,8,9,10};
-        int target = 9;
+        int target = 5;
         int Result= binarySearch(arr,target);
 
         if(Result == -1){
