@@ -1,4 +1,4 @@
-package Shreyam;
+package Shreyam.misc;
 
 public class SumOfNatural {
     public static void main(String[] args) {

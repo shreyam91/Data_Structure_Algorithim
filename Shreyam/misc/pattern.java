@@ -1,4 +1,4 @@
-package Shreyam;
+package Shreyam.misc;
 
 public class pattern {
     public static void main(String[] args) {

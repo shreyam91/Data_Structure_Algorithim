@@ -1,4 +1,4 @@
-package Shreyam;
+package Shreyam.misc;
 
 public class numberPattern {
     public static void main(String[] args) {
