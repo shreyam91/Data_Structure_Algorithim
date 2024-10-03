@@ -6,7 +6,6 @@ public class IndexOfFirstOne {
         int start = 0, end = 1;
         
         while(end < arr.length && arr[end] < target){
-            int mid = start + (end-start)/2;
             start = end;
             end = Math.min(end*2,arr.length-1);
 

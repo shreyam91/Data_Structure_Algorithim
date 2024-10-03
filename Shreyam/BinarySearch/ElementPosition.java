@@ -6,19 +6,9 @@ public class ElementPosition {
         int start =0,end=1;
 
         while(end < arr.length && arr[end] < target){
-            int mid = start + (end-start)/2;
             start = end;
             end = Math.min(end * 2, arr.length - 1);
 
-            // if(arr[mid] == target)
-            //     return mid;
-            
-            // else if(arr[mid] <= target){
-            //     start = mid+1;
-            // }
-            // else{
-            //     end = mid-1;
-            // }
         }
         return binarySearch(arr, start, end, target);
     }

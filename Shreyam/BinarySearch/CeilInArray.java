@@ -11,7 +11,7 @@ public class CeilInArray {
             if(arr[mid] == target)
             return mid;
 
-            if(arr[mid] >= target){
+            else if(arr[mid] >= target){
                 res = mid;
                 end = mid-1;
             }

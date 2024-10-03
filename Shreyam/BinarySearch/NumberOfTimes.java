@@ -16,7 +16,7 @@ public class NumberOfTimes {
             if (arr[start] <= arr[end]) {
                 if (arr[start] < ans) {
                     index = start;
-                    ans = arr[start];
+                    // ans = arr[start];
                 }
                 break;
             }
