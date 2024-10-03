@@ -27,7 +27,7 @@ public class MinimumDifference {
     }
     public static void main(String[] args) {
         int[] arr = {9,12,15,17,19,21};
-        int target = 16;
+        int target = 14;
         int Result = binarySearch(arr, target);
 
         if(Result == -1){

@@ -25,7 +25,7 @@ public class NextAlphabetElement {
     }
     public static void main(String[] args) {
         char[] arr = {'a','b','d','r','u','z'};
-        char target = 'c';
+        char target = 'e';
 
         char Result = nextAlphabet(arr, target);
 

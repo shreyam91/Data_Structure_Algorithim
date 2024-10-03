@@ -10,16 +10,6 @@ public class IndexOfFirstOne {
             start = end;
             end = Math.min(end*2,arr.length-1);
 
-            if(arr[mid] == target){
-                return mid;
-            }
-
-            else if(arr[mid] <= target){
-                start = mid+1;
-            }
-            else{
-                end = mid-1;
-            }
         }
         return binarySearch(arr,start,end,target);
     }

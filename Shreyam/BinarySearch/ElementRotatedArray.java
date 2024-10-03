@@ -4,8 +4,8 @@ package Shreyam.BinarySearch;
 public class ElementRotatedArray {
 
     public static int binarySearch(int[] arr,int target){
-        int n = arr.length;
-        int start =0, end =n-1;
+        // int n = arr.length;
+        int start =0, end =arr.length-1;
         while(start <= end){
             int mid = start + (end-start)/2;
 

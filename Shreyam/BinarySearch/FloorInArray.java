@@ -23,7 +23,7 @@ public class FloorInArray {
     }
     public static void main(String[] args) {
         int[] arr = {2,5,7,9,11,14,18,20};
-        int target = 11;
+        int target = 8;
 
         int Result = floorElemment(arr, target);
 

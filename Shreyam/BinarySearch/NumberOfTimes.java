@@ -1,33 +1,47 @@
 package Shreyam.BinarySearch;
 
+// Number of times this array is sorted 
 public class NumberOfTimes {
-    public static int numberOfTime(int[] arr){
-        int start =0, end = arr.length-1;
-        int N = arr.length;
+    public static int numberOfTimes(int[] arr) {
+        int start = 0, end = arr.length - 1;
+        int index =-1;
+        int ans = Integer.MAX_VALUE;
 
         if (arr.length == 0) return 0;
         if (arr[start] < arr[end]) return 0;
-        while(start <= end){
-            int mid = start + (end - start) /2;
 
-           int prev = (mid+ N -1) %N;
-           int next = (mid+1)%N;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
 
-            if(arr[mid] <= arr[next] && arr[mid] >= arr[prev] ){
-                return mid;
+            if (arr[start] <= arr[end]) {
+                if (arr[start] < ans) {
+                    index = start;
+                    ans = arr[start];
+                }
+                break;
             }
-            else if(arr[mid] >= arr[start]){
-                start = mid+1;
-            }
-            else{
-                end = mid-1;
+
+            if (arr[start] <= arr[mid]) {
+                if (arr[start] < ans) {
+                    index = start;
+                    ans = arr[start];
+                }
+
+                start = mid + 1;
+            } else { 
+                if (arr[mid] < ans) {
+                    index = mid;
+                    ans = arr[mid];
+                }
+
+                end = mid - 1;
             }
         }
-        return 0;
+        return index;  
     }
     public static void main(String[] args) {
         int[] arr = {12,24,45,7,8,9};
-        int Result= numberOfTime(arr);
+        int Result= numberOfTimes(arr);
 
         if(Result == 0){
             System.out.println("array is not rotated");
@@ -39,4 +53,3 @@ public class NumberOfTimes {
 }
 
 
-// Number of times this array is sorted 
