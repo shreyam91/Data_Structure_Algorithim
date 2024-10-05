@@ -4,7 +4,7 @@ public class MaximumSubArray {
     public static int slidingWindow(int[]arr, int k){
         int len = arr.length;
         int max = Integer.MIN_VALUE;
-        int i=0,j=1;
+        int i;
         int sum =0;
 
         for(i=0; i<k; i++){
