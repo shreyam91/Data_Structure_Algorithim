@@ -24,7 +24,7 @@ public class MaximumSubArray {
         int k = 3;
 
         int result = slidingWindow(arr, k);
-        System.out.println("maximum sum " + k + "is: " + result);
+        System.out.println("maximum sum of window " + k + " is: " + result);
 
     }
 }
