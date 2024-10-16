@@ -1,4 +1,4 @@
-package Shreyam.Sliding_Window;
+package Shreyam.SlidingWindow;
 
 public class MaximumSubArray {
     public static int slidingWindow(int[]arr, int k){
