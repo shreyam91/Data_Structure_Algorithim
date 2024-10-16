@@ -34,9 +34,6 @@ public class CountOccurenceAnagram {
             }
         }
 
-
-
-
         return ans;
     }
     public static void main(String[] args) {
