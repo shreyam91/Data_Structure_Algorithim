@@ -1,6 +1,6 @@
 package Shreyam.SlidingWindow;
 
-public class MaximumSubArray {
+public class MaxSumOfSubArray {
     public static int slidingWindow(int[]arr, int k){
         int len = arr.length;
         int max = Integer.MIN_VALUE;
