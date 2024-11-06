@@ -3,6 +3,7 @@ package Shreyam.SlidingWindow;
 import java.util.HashMap;
 
 public class MinimumWindowSize {
+    @SuppressWarnings("UnnecessaryUnboxing")
     public static String minWindows(String s, String t){
         if(s.length() == 0 || t.length()== 0) return " ";
 
