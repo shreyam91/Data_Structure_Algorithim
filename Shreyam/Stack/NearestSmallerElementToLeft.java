@@ -2,8 +2,8 @@ package Shreyam.Stack;
 
 import java.util.Stack;
 
-public class NextSmallerElement {
-    public static int[] nextSmallerElement(int arr[]){
+public class NearestSmallerElementToLeft {
+    public static int[] prevSmallerElement(int arr[]){
         int n = arr.length;
         int result[] = new int[n];
         Stack<Integer>stack = new Stack<>();
@@ -24,7 +24,7 @@ public class NextSmallerElement {
     }
     public static void main(String[] args) {
         int[] arr = {4,5,2,10,8};
-        int result[] = nextSmallerElement(arr);
+        int result[] = prevSmallerElement(arr);
 
         for(int i:result){
             System.out.print(i + " ");
