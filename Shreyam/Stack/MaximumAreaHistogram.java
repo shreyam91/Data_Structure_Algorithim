@@ -12,7 +12,7 @@ public class MaximumAreaHistogram {
         int maxArea =0;
         Stack<Integer> stack = new Stack<>();
 
-        // NSL (nearest smaller left )
+        // NSL (nearest smaller left) 
         for(int i=0; i<n; i++){
             while(!stack.isEmpty() && height[stack.peek()] >= height[i]){
                 stack.pop();
@@ -23,7 +23,7 @@ public class MaximumAreaHistogram {
 
         stack.clear();
 
-        // NSR (nearest smaller right )
+        // NSR (nearest smaller right)
         for(int i=n-1; i>= 0; i--){
             while(!stack.isEmpty() && height[stack.peek()] >= height[i]){
                 stack.pop();
@@ -32,6 +32,7 @@ public class MaximumAreaHistogram {
             stack.push(i);
         }
 
+        // Calculate area...
         for(int i=0; i<n;i++){
             int width=right[i] - left[i] -1;
             int area = height[i] * width;
