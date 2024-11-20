@@ -1,4 +1,4 @@
-package Shreyam.misc;
+package Shreyam.Pattern;
 
 public class pattern_reverse {
     public static void main(String[] args) {
