@@ -376,7 +376,7 @@ public class PatternAll {
         // print7(number);
         // print8(number);
         // print9(number);
-        // print10(number);
+        print10(number);
         // print11(number);
         // print12(number);
         // print13(number);
@@ -388,6 +388,6 @@ public class PatternAll {
         // print19(number);
         // print20(number);
         // print21(number);
-        print22(number);
+        // print22(number);
     }
 }
