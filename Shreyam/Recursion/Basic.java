@@ -21,7 +21,7 @@ public class Basic {
 
     static void backtrack(int i, int n){
         if(i>n) return;
-        backtarck(i+1,n);
+        backtrack(i+1,n);
             System.out.println(i);
     }
     
@@ -35,10 +35,10 @@ public class Basic {
             // Scanner numberPattern = new Scanner(System.in);
             // int number = numberPattern.nextInt();
 
-            // print(1,5);
-            // print2(1,5);
-            // print3(5,5);
-            // backtrack(1,5);
+            print(1,5);
+            print2(1,5);
+            print3(5,5);
+            backtrack(1,5);
             backtrack2(3,3);
     }
 }

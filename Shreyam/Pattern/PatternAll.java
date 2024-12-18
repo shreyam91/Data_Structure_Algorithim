@@ -1,7 +1,5 @@
 package Shreyam.Pattern;
 
-import java.util.Scanner;
-
 public class PatternAll {
     static void print1(int n){
         for(int i=0;i<n;i++){
@@ -363,31 +361,35 @@ public class PatternAll {
         }
     }
     public static void main(String[] args) {
-        System.out.print("Enter number only:");
-        Scanner numberPattern = new Scanner(System.in);
-        int number = numberPattern.nextInt();
+        int number = 5;
+        // System.out.print("Enter number only:");
+        // Scanner numberPattern = new Scanner(System.in);
+        // int number = numberPattern.nextInt();
+        // numberPattern.close();
 
-        // print1(number); 
-        // print2(number);
-        // print3(number);
-        // print4(number);
-        // print5(number);
-        // print6(number);
-        // print7(number);
-        // print8(number);
-        // print9(number);
+
+        print1(number); 
+        print2(number);
+        print3(number);
+        print4(number);
+        print5(number);
+        print6(number);
+        print7(number);
+        print8(number);
+        print9(number);
         print10(number);
-        // print11(number);
-        // print12(number);
-        // print13(number);
-        // print14(number);
-        // print15(number);
-        // print16(number);
-        // print17(number);
-        // print18(number);
-        // print19(number);
-        // print20(number);
-        // print21(number);
-        // print22(number);
+        print11(number);
+        print12(number);
+        print13(number);
+        print14(number);
+        print15(number);
+        print16(number);
+        print17(number);
+        print18(number);
+        print19(number);
+        print20(number);
+        print21(number);
+        print22(number);
+
     }
 }
