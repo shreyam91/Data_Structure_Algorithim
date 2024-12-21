@@ -36,10 +36,10 @@ The **DSA Learning Repository** is aimed at individuals who wish to master **Dat
 
 ## Technologies Used
 
-- **Programming Languages**: Python, C++, Java (other languages might be added in the future)
+- **Programming Languages**: Java 
 - **Algorithms**: Sorting, Searching, Dynamic Programming, Graph Algorithms, Tree Traversals, Greedy Algorithms, etc.
 - **Version Control**: Git, GitHub
-- **Code Editors**: VSCode, IntelliJ IDEA, PyCharm, etc.
+- **Code Editors**: VSCode
 
 
 ## How to Use
@@ -51,10 +51,6 @@ Clone the repository to your local machine:
 ### 2. Choose a Topic
 
 Each folder represents a topic in **Data Structures and Algorithms**. Navigate through the repository and choose a topic to begin your learning journey. For example, to learn about **Arrays**, navigate to the `Arrays` folder:
-
-```bash
-cd Arrays
-```
 
 Here, you'll find:
 
