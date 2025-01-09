@@ -19,6 +19,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class printAnagramsTogether {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     public static List<List<String>> printAnagram(String [] words){
         HashMap<String, List<String>> angramMap = new HashMap<>();
 
