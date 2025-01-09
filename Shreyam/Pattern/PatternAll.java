@@ -360,36 +360,65 @@ public class PatternAll {
             System.out.println();
         }
     }
+    
+    public static void print23(int n) {
+        // Loop through rows
+        for (int i = 1; i <= 2 * n - 1; i++) {
+            // Handle rows where stars are printed without spaces
+            if (i == 1 || i == 2 || i == (2 * n) - 1) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+            }
+            // Handle rows with stars separated by space (for rows 3, 5, etc.)
+            else if (i == 3 || i == (2 * n) - 3) {
+                System.out.print("*");
+                System.out.print(" ");
+                System.out.print("*");
+            }
+            // Handle the row with the maximum stars (row n = 4)
+            else if (i == n) {
+                for (int j = 1; j <= (2 * n) - 1; j++) {
+                    System.out.print("*");
+                }
+            }
+            
+            // Move to the next line after printing the row
+            System.out.println();
+        }
+        }
+    
     public static void main(String[] args) {
-        int number = 5;
+        int number = 4;
         // System.out.print("Enter number only:");
         // Scanner numberPattern = new Scanner(System.in);
         // int number = numberPattern.nextInt();
         // numberPattern.close();
 
 
-        print1(number); 
-        print2(number);
-        print3(number);
-        print4(number);
-        print5(number);
-        print6(number);
-        print7(number);
-        print8(number);
-        print9(number);
-        print10(number);
-        print11(number);
-        print12(number);
-        print13(number);
-        print14(number);
-        print15(number);
-        print16(number);
-        print17(number);
-        print18(number);
-        print19(number);
-        print20(number);
-        print21(number);
-        print22(number);
+        // print1(number); 
+        // print2(number);
+        // print3(number);
+        // print4(number);
+        // print5(number);
+        // print6(number);
+        // print7(number);
+        // print8(number);
+        // print9(number);
+        // print10(number);
+        // print11(number);
+        // print12(number);
+        // print13(number);
+        // print14(number);
+        // print15(number);
+        // print16(number);
+        // print17(number);
+        // print18(number);
+        // print19(number);
+        // print20(number);
+        // print21(number);
+        // print22(number);
+        print23(number);
 
     }
 }
