@@ -7,7 +7,7 @@ public class MissingNumber {
         arr[last] = temp;
     }
 
-    static int sort(int[]arr){
+    static int missingNum(int[]arr){
         int length = arr.length;
         int i=0;
 
@@ -30,8 +30,8 @@ public class MissingNumber {
         return length;
     }
     public static void main(String[] args) {
-        int[] arr = {0,1};
-        int missing = sort(arr);
+        int[] arr = {0,1,2,3,5,6,7};
+        int missing = missingNum(arr);
 
         System.out.println("Missing number is:" + missing);
     }

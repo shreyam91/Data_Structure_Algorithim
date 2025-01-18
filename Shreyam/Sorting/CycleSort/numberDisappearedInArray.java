@@ -10,8 +10,8 @@ public class numberDisappearedInArray {
         int i=0;
 
         while(i < length){
-            int correct = arr[i];
-            if(arr[i] >= 0 && arr[i] < length && arr[i] != arr[correct]){
+            int correct = arr[i] -1;
+            if(arr[i] >= 0 && arr[i] <= length && arr[i] != arr[correct]){
                 swap(arr,i,correct);
             }else{
                 i++;
@@ -21,7 +21,7 @@ public class numberDisappearedInArray {
         // Search missing number 
         List<Integer> ans = new ArrayList<>();
         for(int index =0; index < length; index++){
-            if(arr[index] != index){
+            if(arr[index] != index + 1){
                  ans.add(index + 1);
             }
         }
