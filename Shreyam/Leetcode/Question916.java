@@ -9,7 +9,7 @@
 // words2 = ["e","o"]
 // Output: ["facebook","google","leetcode"]
 
-package Shreyam.Leetcode;
+package Shreyam.LeetCode;
 
 import java.util.ArrayList;
 import java.util.List;

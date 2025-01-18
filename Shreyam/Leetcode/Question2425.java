@@ -9,7 +9,7 @@
 // A possible nums3 array is [8,0,7,2,11,3,4,1,9,1,6,3].
 // The bitwise XOR of all these numbers is 13, so we return 13.
 
-package Shreyam.Leetcode;
+package Shreyam.LeetCode;
 
 public class Question2425 {
     public static int xorAllNums(int[] nums1, int[] nums2) {

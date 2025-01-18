@@ -13,7 +13,7 @@
 // Secondly, shift the characters from index 1 to index 2 forward. Now s = "zbd".
 // Finally, shift the characters from index 0 to index 2 forward. Now s = "ace".
 
-package Shreyam.Leetcode;
+package Shreyam.LeetCode;
 
 public class Question2381 {
     public String shiftingLetters(String s, int[][] shifts) {

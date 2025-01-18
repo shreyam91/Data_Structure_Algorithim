@@ -33,7 +33,7 @@
 //    9 = IX as 1 (I) less of 10 (X)
 // Note: 49 is not 1 (I) less of 50 (L) because the conversion is based on decimal places
 
-package Shreyam.Leetcode;
+package Shreyam.LeetCode;
 // package Shreyam;
 
 public class Question12 {

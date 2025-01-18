@@ -13,7 +13,7 @@
 // The binary representations of num1 and num2 are 0011 and 0101, respectively.
 // The integer 3 has the same number of set bits as num2, and the value 3 XOR 3 = 0 is minimal.
 
-package Shreyam.Leetcode;
+package Shreyam.LeetCode;
 
 public class Question2429 {
     static int minimizeXOR(int num1, int num2){

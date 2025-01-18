@@ -12,7 +12,7 @@
 // At i = 2: 1, 2, and 3 are common in A and B, so C[2] = 3.
 // At i = 3: 1, 2, 3, and 4 are common in A and B, so C[3] = 4.
 
-package Shreyam.Leetcode;
+package Shreyam.LeetCode;
 
 import java.util.HashSet;
 import java.util.Set;
