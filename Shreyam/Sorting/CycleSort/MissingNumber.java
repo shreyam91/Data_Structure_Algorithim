@@ -30,7 +30,7 @@ public class MissingNumber {
         return length;
     }
     public static void main(String[] args) {
-        int[] arr = {0,1,2,3,5,6,7};
+        int[] arr = {0,1,2,3,5,7};
         int missing = missingNum(arr);
 
         System.out.println("Missing number is:" + missing);
