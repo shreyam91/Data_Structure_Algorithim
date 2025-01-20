@@ -21,7 +21,7 @@ public class rotateALinkedList {
             next=null;
         }
     }
-    public Node rotate(Node head, int k) {
+    public static Node rotate(Node head, int k) {
         if (head == null || head.next == null || k == 0) {
             return head; 
         }
