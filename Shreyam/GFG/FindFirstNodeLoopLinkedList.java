@@ -22,7 +22,7 @@ public class FindFirstNodeLoopLinkedList {
         next = null;
     }
 }
-public static Node findFirstNode(Node head) {
+ static Node findFirstNode(Node head) {
     Node slow = head, fast = head;
     while(fast != null && fast.next != null){
         slow = slow.next;
@@ -41,7 +41,7 @@ public static Node findFirstNode(Node head) {
     
 }
 
-public static void createCycle(Node head, int cycleStartIndex) {
+ static void createCycle(Node head, int cycleStartIndex) {
     Node current = head;
     Node cycleStartNode = null;
     int index = 0;
@@ -56,7 +56,7 @@ public static void createCycle(Node head, int cycleStartIndex) {
     current.next = cycleStartNode; // Create the cycle
 }
 
-public static Node createList(int[] values) {
+ static Node createList(int[] values) {
     Node head = new Node(values[0]);
     Node current = head;
     for (int i = 1; i < values.length; i++) {
