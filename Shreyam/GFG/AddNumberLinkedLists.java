@@ -1,3 +1,5 @@
+package Shreyam.GFG;
+
 // Question: Add Number Linked Lists... 
 // Given the head of two singly linked lists num1 and num2 representing two non-negative integers. The task is to return the head of the linked list representing the sum of these two numbers.
 // For example, num1 represented by the linked list : 1 -> 9 -> 0, similarly num2 represented by the linked list: 2 -> 5. Sum of these two numbers is represented by 2 -> 1 -> 5.
@@ -7,7 +9,7 @@
 // Output:  3 -> 9 -> 0
 // Explanation: Given numbers are 45 and 345. There sum is 390.
 
-package Shreyam.GFG;
+
 
 public class AddNumberLinkedLists {
     static class Node {
