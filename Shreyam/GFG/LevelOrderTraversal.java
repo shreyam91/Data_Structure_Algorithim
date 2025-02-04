@@ -11,10 +11,6 @@ public class LevelOrderTraversal {
         int data;
         Node left, right;
     
-        Node(int item) {
-            data = item;
-            left = right = null;
-        }
     }
     public ArrayList<ArrayList<Integer>> levelOrder(Node root) {
         // Your code here
