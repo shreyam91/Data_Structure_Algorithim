@@ -29,7 +29,7 @@ public class TreeBoundaryTraversal {
     }
     ArrayList<Integer> boundaryTraversal(Node node) {
         // code here
-        ArrayList<Integer> ans = new ArrayList();
+        ArrayList<Integer> ans = new ArrayList<>();
         if(node.left!=null || node.right!=null){
             ans.add(node.data);
         }

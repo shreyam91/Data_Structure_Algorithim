@@ -25,7 +25,7 @@ public class NQueenProblem {
     }
     static void solve(int n, int currR, boolean[] col, boolean[] ndiag, boolean[] rdiag, ArrayList<ArrayList<Integer>> res, ArrayList<Integer> tmp){
         if(currR == n){
-            res.add(new ArrayList(tmp));
+            res.add(new ArrayList<>(tmp));
             return;
         }
         for(int i=0;i<n;i++){
