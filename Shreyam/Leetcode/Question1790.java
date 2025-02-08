@@ -11,13 +11,14 @@ package shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Question1790 {
     public static boolean areAlmostEqual(String s1, String s2) {
         if(s1.equals(s2)) return true;
 
         int m = s1.length();
-        int n = s2.length();
+        // int n = s2.length();
 
         
         // int mismatches = 0;
@@ -32,7 +33,9 @@ public class Question1790 {
             pos++;
         }
         if(mismatch.size()==4){
-            return (mismatch.get(0) == mismatch.get(3) && mismatch.get(1) == mismatch.get(2));
+            return (Objects.equals(mismatch.get(0), mismatch.get(3)) && (Objects.equals(mismatch.get(1), mismatch.get(2))));
+
+            // return (mismatch.get(0) == mismatch.get(3) && mismatch.get(1) == mismatch.get(2));
         }
         return false;
     }
