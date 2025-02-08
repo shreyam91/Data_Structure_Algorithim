@@ -8,7 +8,7 @@
 // Output: 3
 // Explanation: We can see that there exists a loop in the given linked list and the first node of the loop is 3.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class FindFirstNodeLoopLinkedList {
     static class Node

@@ -1,4 +1,4 @@
-package Shreyam.SlidingWindow.Brute_Force;
+package Shreyam.slidingWindow.Brute_Force;
 
 
 public class FirstNegative {

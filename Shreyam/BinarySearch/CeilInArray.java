@@ -1,4 +1,4 @@
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 public class CeilInArray {
     public static int ceilElement(int[] arr,int target){

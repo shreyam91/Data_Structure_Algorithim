@@ -10,7 +10,7 @@
 // arr[0] + arr[1] + arr[5] = (-3) + (-1) + (2) = -2
 // arr[0] + arr[2] + arr[5] = (-3) + (-1) + (2) = -2
 // arr[1] + arr[2] + arr[3] = (-1) + (-1) + (0) = -2
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class countTripletsInSortedArray {
     public static int countTriplet(int arr[],int target){

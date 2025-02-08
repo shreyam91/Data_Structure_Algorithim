@@ -6,7 +6,7 @@
 // Input: root[] = [1, 2, 3, N, N, 4]
 // Output: [1, 3, 2, N, 4]
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class MirrorTree {
     static class Node

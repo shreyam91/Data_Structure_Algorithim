@@ -12,7 +12,7 @@
 // The second robot will collect 0 + 0 + 4 + 0 = 4 points.
 
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question2017 {
     public static long gridGame(int[][] grid) {

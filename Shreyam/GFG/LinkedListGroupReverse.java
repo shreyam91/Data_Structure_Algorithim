@@ -6,7 +6,7 @@
 // Output: 4 -> 2 -> 2 -> 1 -> 8 -> 7 -> 6 -> 5
 // Explanation: The first 4 elements 1, 2, 2, 4 are reversed first and then the next 4 elements 5, 6, 7, 8. Hence, the resultant linked list is 4 -> 2 -> 2 -> 1 -> 8 -> 7 -> 6 -> 5.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class LinkedListGroupReverse {
    static class Node{

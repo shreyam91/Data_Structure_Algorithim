@@ -1,5 +1,5 @@
 // Question: Duplicate number in Array... 
-package Shreyam.Sorting.CycleSort;
+package Shreyam.sorting.cycleSort;
 
 import java.util.ArrayList;
 import java.util.List;

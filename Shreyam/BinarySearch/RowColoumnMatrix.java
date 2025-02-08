@@ -1,4 +1,4 @@
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 public class RowColoumnMatrix {
     public static int[] binarySearch(int[][]arr,int target){

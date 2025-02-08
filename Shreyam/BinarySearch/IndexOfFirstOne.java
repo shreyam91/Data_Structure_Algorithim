@@ -1,4 +1,4 @@
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 public class IndexOfFirstOne {
     public static int findLength(int[] arr,int target){

@@ -12,7 +12,7 @@
 // Note that the company can also invite employees 1, 2, and 3, and give them their desired seats.
 // The maximum number of employees that can be invited to the meeting is 3. 
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

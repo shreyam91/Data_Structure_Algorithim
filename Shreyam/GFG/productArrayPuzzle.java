@@ -11,7 +11,7 @@
 // For i = 3, res[i] = 10 * 3 * 5 * 2 is 300.
 // For i = 4, res[i] = 10 * 3 * 5 * 6 is 900.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class productArrayPuzzle {
     static int [] product(int[] arr){

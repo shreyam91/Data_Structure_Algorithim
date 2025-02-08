@@ -1,5 +1,5 @@
 // Find a element in a Rotated Array 
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 public class ElementRotatedArray {
 

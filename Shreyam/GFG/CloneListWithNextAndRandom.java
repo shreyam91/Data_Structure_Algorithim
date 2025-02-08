@@ -12,7 +12,7 @@
 // Node 3 points to Node 4 as its NEXT and NULL as its RANDOM.
 // Node 4 points to NULL as its NEXT and Node 3 as its RANDOM.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 
 public class CloneListWithNextAndRandom {

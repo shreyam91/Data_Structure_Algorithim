@@ -1,4 +1,4 @@
-package Shreyam.SlidingWindow;
+package Shreyam.slidingWindow;
 
 import java.util.HashMap;
 import java.util.Map;

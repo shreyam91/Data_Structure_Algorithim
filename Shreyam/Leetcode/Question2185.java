@@ -10,7 +10,7 @@
 // Output: 2
 // Explanation: The 2 strings that contain "at" as a prefix are: "attention" and "attend".
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question2185 {
     public static int prefixCount (String[] words,String prefix){

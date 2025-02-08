@@ -1,5 +1,5 @@
 // Question:- Making A Large Island... 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.HashMap;
 import java.util.HashSet;

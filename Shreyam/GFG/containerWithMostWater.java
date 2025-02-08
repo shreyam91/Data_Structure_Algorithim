@@ -8,7 +8,7 @@
 // Output: 6
 // Explanation: 5 and 3 are 2 distance apart. So the size of the base is 2. Height of container = min(5, 3) = 3. So, total area to hold water = 3 * 2 = 6.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class containerWithMostWater {
     static int maxWater(int [] arr){

@@ -15,7 +15,7 @@
 // derived[1] = original[1] ⊕ original[2] = 1 ⊕ 0 = 1
 // derived[2] = original[2] ⊕ original[0] = 0 ⊕ 0 = 0
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question2683 {
      static boolean validArray(int[] derived){

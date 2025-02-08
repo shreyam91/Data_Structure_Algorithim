@@ -7,7 +7,7 @@
 // Explanation: You can construct two palindromes using all characters in s.
 // Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question1400 {
     static boolean constructPalindrome(String s, int k){

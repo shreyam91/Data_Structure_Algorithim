@@ -13,7 +13,7 @@
 // We cannot obtain a lexicographically smaller array by applying any more operations.
 // Note that it may be possible to get the same result by doing different operations. 
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.*;
 

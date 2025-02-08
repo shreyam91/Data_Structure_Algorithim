@@ -1,4 +1,4 @@
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 public class MaximumInBitonicArray {
     public static int binarySearch(int[] arr){

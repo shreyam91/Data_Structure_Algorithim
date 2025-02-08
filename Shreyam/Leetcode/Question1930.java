@@ -16,7 +16,7 @@
 // - "aaa" (subsequence of "aabca")
 // - "aca" (subsequence of "aabca").
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.*;
 

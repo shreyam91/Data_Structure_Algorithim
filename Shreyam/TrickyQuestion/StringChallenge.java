@@ -10,7 +10,7 @@
 // Output: 2a2b1c1d1e
 // Final Output: e1d1c1b2a2:13dgbwzahcl
 
-package Shreyam.TrickyQuestion;
+package Shreyam.trickyQuestion;
 
 public class StringChallenge {
     static String string(String str){

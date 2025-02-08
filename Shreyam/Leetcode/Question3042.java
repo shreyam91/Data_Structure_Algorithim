@@ -16,7 +16,7 @@
 // i = 1 and j = 2 because isPrefixAndSuffix("aba", "ababa") is true.
 // Therefore, the answer is 4.
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question3042 {
     public static int countPrefixSuffixPairs(String[] words) {

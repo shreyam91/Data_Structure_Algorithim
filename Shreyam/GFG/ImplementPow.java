@@ -5,7 +5,7 @@
 // Input: b = 3.00000, e = 5
 // Output: 243.00000
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class ImplementPow {
     static double power(double b, int e) {

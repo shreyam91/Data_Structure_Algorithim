@@ -1,4 +1,4 @@
-package Shreyam.String;
+package Shreyam.string;
 
 public class ReverseString {
     public static void main(String[] args) {

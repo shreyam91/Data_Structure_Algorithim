@@ -1,5 +1,5 @@
 // Question:- Find all numbers Disappeared in an Array... 
-package Shreyam.Sorting.CycleSort;
+package Shreyam.sorting.cycleSort;
 
 import java.util.ArrayList;
 import java.util.List;

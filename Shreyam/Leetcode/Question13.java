@@ -25,7 +25,7 @@
 // Input: s = "III"
 // Output: 3
 // Explanation: III = 3.
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
  public class Question13 {
     public static int getVal(char ch){
         return switch (ch) {

@@ -1,5 +1,5 @@
 // Question:- Find the Duplicate number in an Array... 
-package Shreyam.Sorting.CycleSort;
+package Shreyam.sorting.cycleSort;
 
 public class DuplicateNumber {
     static int findDuplicate(int[] arr){

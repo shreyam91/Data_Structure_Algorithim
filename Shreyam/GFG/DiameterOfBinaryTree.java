@@ -6,7 +6,7 @@
 // Output: 2
 // Explanation: The longest path has 2 edges (node 2 -> node 1 -> node 3).
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class DiameterOfBinaryTree {
     static class Node {

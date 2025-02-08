@@ -7,7 +7,7 @@
 // Output: true
 // Explanation: For example, swap the first character with the last character of s2 to make "bank".
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.List;

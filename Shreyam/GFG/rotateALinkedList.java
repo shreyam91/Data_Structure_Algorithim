@@ -10,7 +10,7 @@
 // Rotate 3: 40 -> 50 -> 10 -> 20 -> 30
 // Rotate 4: 50 -> 10 -> 20 -> 30 -> 40
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class rotateALinkedList {
     class Node{

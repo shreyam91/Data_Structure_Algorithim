@@ -5,7 +5,7 @@
 // Input: mat[][] = [['T', 'E', 'E'], ['S', 'G', 'K'], ['T', 'E', 'L']], word = "GEEK"
 // Output: true
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class WordSearch {
     static public boolean isWordExist(char[][] mat, String word) {

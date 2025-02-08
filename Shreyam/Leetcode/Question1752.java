@@ -1,5 +1,5 @@
 // Question: Check If Array Is Sorted And Rotated..
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question1752 {
     public boolean check(int[] nums) {

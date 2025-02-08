@@ -14,7 +14,7 @@
 // Explanation: The image shows the assigned heights of each cell.
 // The blue cell is the water cell, and the green cells are the land cells.
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.LinkedList;
 import java.util.Queue;

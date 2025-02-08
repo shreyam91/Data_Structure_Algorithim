@@ -1,4 +1,4 @@
-package Shreyam.String;
+package Shreyam.string;
 
 public class appendCharacters {
     public static void main(String[] args) {

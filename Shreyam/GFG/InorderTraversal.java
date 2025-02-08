@@ -7,7 +7,7 @@
 // Output: [4, 2, 5, 1, 3]
 // Explanation: The in-order traversal of the given binary tree is [4, 2, 5, 1, 3].
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 import java.util.ArrayList;
 

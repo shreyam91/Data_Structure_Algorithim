@@ -1,4 +1,4 @@
-package Shreyam.String;
+package Shreyam.string;
 
 public class DivideString {
     public static void main(String[] args) {

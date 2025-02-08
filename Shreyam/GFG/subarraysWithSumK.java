@@ -7,7 +7,7 @@
 // Output: 3
 // Explaination: Subarrays: arr[0...3], arr[1...4], arr[3...4] have sum exactly equal to -10.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 import java.util.*;
 

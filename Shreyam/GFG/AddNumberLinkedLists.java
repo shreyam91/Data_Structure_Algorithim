@@ -1,4 +1,4 @@
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 // Question: Add Number Linked Lists... 
 // Given the head of two singly linked lists num1 and num2 representing two non-negative integers. The task is to return the head of the linked list representing the sum of these two numbers.

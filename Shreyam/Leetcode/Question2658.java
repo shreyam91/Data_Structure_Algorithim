@@ -12,7 +12,7 @@
 // Output: 7
 // Explanation: The fisher can start at cell (1,3) and collect 3 fish, then move to cell (2,3) and collect 4 fish.
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 public class Question2658 {
     static int[] dir = {-1,0,1,0,-1};

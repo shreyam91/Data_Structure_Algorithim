@@ -1,4 +1,4 @@
-package Shreyam.Array;
+package Shreyam.array;
 
 import java.util.Arrays;
 

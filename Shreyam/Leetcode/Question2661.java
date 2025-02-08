@@ -7,7 +7,7 @@
 // Output: 2
 // Explanation: The moves are shown in order, and both the first row and second column of the matrix become fully painted at arr[2].
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.HashMap;
 import java.util.Map;

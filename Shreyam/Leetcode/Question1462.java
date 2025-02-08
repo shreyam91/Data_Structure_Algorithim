@@ -10,7 +10,7 @@
 // Explanation: The pair [1, 0] indicates that you have to take course 1 before you can take course 0.
 // Course 0 is not a prerequisite of course 1, but the opposite is true.
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -7,7 +7,7 @@
 // Output: [5, 20]
 // Explanation: As 5 + 20 = 25 is closest to 25.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 import java.util.ArrayList;
 import java.util.Arrays;

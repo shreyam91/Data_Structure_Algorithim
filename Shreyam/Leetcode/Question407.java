@@ -7,7 +7,7 @@
 // We have two small ponds 1 and 3 units trapped.
 // The total volume of water trapped is 4.
 
-package Shreyam.LeetCode;
+package Shreyam.leetCode;
 
 import java.util.PriorityQueue;
 

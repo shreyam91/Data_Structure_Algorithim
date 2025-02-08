@@ -7,7 +7,7 @@
 // Output: 2
 // Explanation: There are 2 pairs with sum less than 8: (2, 5) and (2, 3). 
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 import java.util.Arrays;
 

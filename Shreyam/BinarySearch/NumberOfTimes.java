@@ -1,4 +1,4 @@
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 // Number of times this array is sorted 
 public class NumberOfTimes {

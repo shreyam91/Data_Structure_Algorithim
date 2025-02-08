@@ -7,7 +7,7 @@
 // Input: head: 1 -> 3 -> 4, pos = 2
 // Output: true
 // Explanation: There exists a loop as last node is connected back to the second node.
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 public class DetectLoopInLinkedList {
    static class Node

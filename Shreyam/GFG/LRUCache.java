@@ -14,7 +14,7 @@
 // ["PUT", 1, 2] will insert the key-value pair (1, 2) in the cache,
 // ["GET", 1] will print the value corresponding to Key 1, ie 2.
 
-package Shreyam.GFG;
+package Shreyam.gfg;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

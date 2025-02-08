@@ -1,4 +1,4 @@
-package Shreyam.Stack;
+package Shreyam.stack;
 
 public class RainWaterTrapping {
     public static int waterTrapping(int[] arr){

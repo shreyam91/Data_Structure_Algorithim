@@ -1,4 +1,4 @@
-package Shreyam.SlidingWindow;
+package Shreyam.slidingWindow;
 
 public class MaxSumOfSubArray {
     public static int slidingWindow(int[]arr, int k){

@@ -1,4 +1,4 @@
-package Shreyam.BinarySearch;
+package Shreyam.binarySearch;
 
 public class ElementCount {
     public static int firstOccurence(int[]arr, int target){

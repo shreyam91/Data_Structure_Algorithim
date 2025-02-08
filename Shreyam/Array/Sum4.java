@@ -1,4 +1,4 @@
-package Shreyam.Array;
+package Shreyam.array;
 import java.util.*;
 // <!-- Brute Force Approach --> Time Complexity- O(n^4),Space Complexity- O(1)
 // public class Sum4 {

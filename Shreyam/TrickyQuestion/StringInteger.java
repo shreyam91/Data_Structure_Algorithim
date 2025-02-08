@@ -2,7 +2,7 @@
 // Example:- 
 // Input:- Three Thousand 
 // Output:- 3000 
-package Shreyam.TrickyQuestion;
+package Shreyam.trickyQuestion;
 
 import java.util.*;
 
