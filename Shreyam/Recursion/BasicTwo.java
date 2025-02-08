@@ -1,4 +1,4 @@
-package Shreyam.recursion;
+package shreyam.recursion;
 
 public class BasicTwo {
     static void ParameterisedRecursion(int i, int sum){

@@ -8,7 +8,7 @@
 // Explanation:
 // There is only one element. So the answer is true.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question3151 {
     public static boolean isArraySpecial(int[] nums) {

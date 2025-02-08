@@ -8,7 +8,7 @@
 // Output: 65
 // Explanation: [5,10,50] is the ascending subarray with the maximum sum of 65.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question1800 {
     public static int maxAscendingSum(int[] nums){

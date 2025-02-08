@@ -1,4 +1,4 @@
-package Shreyam.recursion;
+package shreyam.recursion;
 
 // public class Fibonacci {
 //     public static int fibonacci(int n){

@@ -8,7 +8,7 @@
 // Input: limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]
 // Output: [1,2,2,3]. 
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package Shreyam.recursion;
+package shreyam.recursion;
 
 public class Basic {
     static void print(int i,int n){

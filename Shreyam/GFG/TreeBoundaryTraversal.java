@@ -9,7 +9,7 @@
 // Input: root[] = [1, 2, 3, 4, 5, 6, 7, N, N, 8, 9, N, N, N, N]
 // Output: [1, 2, 4, 8, 9, 6, 7, 3]
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

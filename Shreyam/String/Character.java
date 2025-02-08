@@ -1,4 +1,4 @@
-package Shreyam.string;
+package shreyam.string;
 import java.util.Scanner;
 
 public class Character {

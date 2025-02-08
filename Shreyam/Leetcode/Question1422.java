@@ -15,7 +15,7 @@
 // left = "0111" and right = "01", score = 1 + 1 = 2 
 // left = "01110" and right = "1", score = 2 + 1 = 3
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question1422 {
     public static int maxScore(String s){

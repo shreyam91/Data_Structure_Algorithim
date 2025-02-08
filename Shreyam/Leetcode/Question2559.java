@@ -18,7 +18,7 @@
 // to query [1,1] is 0.
 // We return [2,3,0].
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question2559 {
     private boolean  isVowels(char ch){

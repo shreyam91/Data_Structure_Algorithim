@@ -1,4 +1,4 @@
-package Shreyam.pattern;
+package shreyam.pattern;
 
 public class PatternAll {
     static void print1(int n){

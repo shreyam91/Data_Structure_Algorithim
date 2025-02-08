@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 public class ElementOccurance {
     public static int elementOccurance(int [] arr,int target){

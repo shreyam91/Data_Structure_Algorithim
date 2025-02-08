@@ -8,7 +8,7 @@
 // (2,6,3,4) , (2,6,4,3) , (6,2,3,4) , (6,2,4,3)
 // (3,4,2,6) , (4,3,2,6) , (3,4,6,2) , (4,3,6,2). 
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.HashMap;
 

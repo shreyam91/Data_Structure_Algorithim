@@ -6,7 +6,7 @@
 // Output: 0
 // Explanation: No servers can communicate with others.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question1267 {
     public static int countServers(int[][] grid) {

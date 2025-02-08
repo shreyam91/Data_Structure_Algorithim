@@ -14,7 +14,7 @@
 // Choose index 2, then remove the characters at indices 0 and 3. The resulting string is s = "bacbcbb".
 // Choose index 3, then remove the characters at indices 0 and 5. The resulting string is s = "acbcb".
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question3223 {
     static int minLength(String s){

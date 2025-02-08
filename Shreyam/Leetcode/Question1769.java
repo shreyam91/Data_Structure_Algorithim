@@ -17,7 +17,7 @@
 // 2) Second box: you will have to move one ball from the first box to the second box in one operation.
 // 3) Third box: you will have to move one ball from the first box to the third box in two operations, and move one ball from the second box to the third box in one operation.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question1769 {
     public static int[] minOperations(String boxes) {

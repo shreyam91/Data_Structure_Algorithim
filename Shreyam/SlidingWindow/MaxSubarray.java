@@ -1,4 +1,4 @@
-package Shreyam.slidingWindow;
+package shreyam.slidingWindow;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

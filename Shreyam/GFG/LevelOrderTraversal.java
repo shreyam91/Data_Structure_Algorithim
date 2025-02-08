@@ -1,6 +1,6 @@
 // Question:- Level order traversal... 
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

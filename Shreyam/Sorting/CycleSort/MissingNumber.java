@@ -1,4 +1,4 @@
-package Shreyam.sorting.cycleSort;
+package shreyam.sorting.cycleSort;
 
 public class MissingNumber {
     static void swap (int [] arr, int first, int last){

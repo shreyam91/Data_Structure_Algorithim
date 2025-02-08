@@ -9,7 +9,7 @@
 // Output: [1]
 // Explaination: Only one queen can be placed in the single cell available.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.ArrayList;
 

@@ -7,7 +7,7 @@
 // Output: 2 
 // Explanation: The sum of left of index 2 is 1 + 2 = 3 and sum on right of index 2 is 0 + 3 = 3.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class equilibriumPoint {
     static int equilibriumPoints(int[] arr){

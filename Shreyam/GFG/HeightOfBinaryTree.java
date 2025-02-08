@@ -6,7 +6,7 @@
 // Output: 2
 // Explanation: One of the longest path from the root (node 12) goes through node 8 to node 5, which has 2 edges.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class HeightOfBinaryTree {
     static class Node

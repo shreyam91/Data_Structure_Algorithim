@@ -7,7 +7,7 @@
 // I/p: "(c(oder))b(yte)"
 // O/p: 1
 
-package Shreyam.trickyQuestion;
+package shreyam.trickyQuestion;
 
 import java.util.Stack;
 

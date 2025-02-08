@@ -7,7 +7,7 @@
 // Output: [2, 4]
 // Explanation: The sum of elements from 2nd to 4th position is 12.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.ArrayList;
 

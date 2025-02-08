@@ -10,7 +10,7 @@
 // The strictly decreasing subarrays of nums are [1], [2], [3], [3], [4], [3,2], and [4,3].
 // Hence, we return 2.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 public class Question3105 {
     public static int longestMonotonicSubarray(int[] nums) {

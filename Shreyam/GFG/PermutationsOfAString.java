@@ -6,7 +6,7 @@
 // Output: ["ABC", "ACB", "BAC", "BCA", "CAB", "CBA"]
 // Explanation: Given string ABC has 6 unique permutations.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.ArrayList;
 import java.util.HashSet;

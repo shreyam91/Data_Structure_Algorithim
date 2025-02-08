@@ -5,7 +5,7 @@
 // Input: head1 = 5 -> 10 -> 15 -> 40, head2 = 2 -> 3 -> 20
 // Output: 2 -> 3 -> 5 -> 10 -> 15 -> 20 -> 40
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class mergeTwoSortedLinkedLists {
     class Node

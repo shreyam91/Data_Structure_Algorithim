@@ -6,7 +6,7 @@
 // Input: inorder[] = [1, 6, 8, 7], preorder[] = [1, 6, 7, 8]
 // Output: [8, 7, 6, 1]. 
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class ConstructTreeFromInorderPreorder {
     static class Node {

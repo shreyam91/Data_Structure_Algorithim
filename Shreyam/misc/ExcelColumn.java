@@ -1,4 +1,4 @@
-package Shreyam.misc;
+package shreyam.misc;
 
 public class ExcelColumn {
     public static void main(String[] args) {

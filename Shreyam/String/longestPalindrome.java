@@ -32,7 +32,7 @@
     
 // }
 
-package Shreyam.string;
+package shreyam.string;
 
 public class longestPalindrome {
     public String longestPalindromeString(String s) {

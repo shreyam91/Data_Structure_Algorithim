@@ -1,5 +1,5 @@
 // Question: Solve The Sudoku... 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class SolveTheSudoku {
     private boolean[][] rows = new boolean[9][10];   

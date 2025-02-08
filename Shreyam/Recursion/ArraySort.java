@@ -1,4 +1,4 @@
-package Shreyam.recursion;
+package shreyam.recursion;
 
 import java.util.Arrays;
 // Using Merge Sort 

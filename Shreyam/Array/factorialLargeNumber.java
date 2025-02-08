@@ -1,4 +1,4 @@
-package Shreyam.array;
+package shreyam.array;
 
 public class factorialLargeNumber {
     public static void main(String[] args) {

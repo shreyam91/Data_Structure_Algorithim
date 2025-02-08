@@ -1,4 +1,4 @@
-package Shreyam.array;
+package shreyam.array;
 
 public class MergeSortedArray {
     public static void mergeArrays(int arr1[], int arr2[]){

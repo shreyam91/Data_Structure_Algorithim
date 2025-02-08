@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 public class OrderUnknown {
     public static int orderUnknown(int[] arr, int target) {

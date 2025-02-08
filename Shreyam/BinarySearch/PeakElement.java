@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 public class PeakElement {
 

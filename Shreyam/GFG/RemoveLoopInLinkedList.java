@@ -8,7 +8,7 @@
 // Input: head = 1 -> 3 -> 4, pos = 2
 // Output: true
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class RemoveLoopInLinkedList {
     static class Node{

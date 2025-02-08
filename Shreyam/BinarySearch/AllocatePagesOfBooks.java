@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 import java.util.Arrays;
 

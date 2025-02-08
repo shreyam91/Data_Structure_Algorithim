@@ -10,7 +10,7 @@
 // Explanation: "as" is substring of "mass" and "hero" is substring of "superhero".
 // ["hero","as"] is also a valid answer.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.*;
 

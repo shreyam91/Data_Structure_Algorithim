@@ -1,4 +1,4 @@
-package Shreyam.stack;
+package shreyam.stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 // find position of an element in an Infinite Sorted Array....
 public class ElementPosition {

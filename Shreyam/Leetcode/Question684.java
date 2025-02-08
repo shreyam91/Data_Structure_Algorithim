@@ -6,7 +6,7 @@
 // Input: edges = [[1,2],[1,3],[2,3]]
 // Output: [2,3]
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.Arrays;
 

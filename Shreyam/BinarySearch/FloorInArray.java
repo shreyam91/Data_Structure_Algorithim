@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 public class FloorInArray {
     public static int floorElemment(int[]arr,int target){

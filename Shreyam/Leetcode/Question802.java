@@ -10,7 +10,7 @@
 // Nodes 5 and 6 are terminal nodes as there are no outgoing edges from either of them.
 // Every path starting at nodes 2, 4, 5, and 6 all lead to either node 5 or 6.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

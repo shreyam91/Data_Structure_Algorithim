@@ -9,7 +9,7 @@
 // Output: 3
 // Explanation: There are three triangles possible [3, 4, 6], [4, 6, 7] and [3, 6, 7]. Note that [3, 4, 7] is not a possible triangle. 
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.Arrays;
 

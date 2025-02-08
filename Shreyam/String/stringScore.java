@@ -1,4 +1,4 @@
-package Shreyam.string;
+package shreyam.string;
 // package Shreyam.String;
 
 // public class stringScore {

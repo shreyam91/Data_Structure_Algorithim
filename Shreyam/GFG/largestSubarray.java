@@ -6,7 +6,7 @@
 // Output: 6
 // Explanation: arr[1...6] is the longest subarray with three 0s and three 1s.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 import java.util.HashMap;
 import java.util.Map;
 

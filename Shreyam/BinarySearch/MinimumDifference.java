@@ -1,4 +1,4 @@
-package Shreyam.binarySearch;
+package shreyam.binarySearch;
 
 public class MinimumDifference {
     public static int binarySearch(int [] arr, int target){

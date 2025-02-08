@@ -1,4 +1,4 @@
-package Shreyam.array;
+package shreyam.array;
 
 public class NegativeElements {
 

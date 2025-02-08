@@ -1,4 +1,4 @@
-package Shreyam.recursion;
+package shreyam.recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

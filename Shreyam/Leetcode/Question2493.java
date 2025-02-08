@@ -16,7 +16,7 @@
 // We can see that every edge is satisfied.
 // It can be shown that that if we create a fifth group and move any node from the third or fourth group to it, at least on of the edges will not be satisfied.
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

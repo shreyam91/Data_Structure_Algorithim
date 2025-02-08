@@ -11,7 +11,7 @@
 // Explanation: There are 2 groups of anagrams "god", "dog" make group 1. "act", "cat", "tac" make group 2.
 
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.ArrayList;
 import java.util.Arrays;

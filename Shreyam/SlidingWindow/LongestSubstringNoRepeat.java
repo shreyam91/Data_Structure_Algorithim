@@ -1,6 +1,6 @@
 // Longest substring with No Repeating Character
 
-package Shreyam.slidingWindow;
+package shreyam.slidingWindow;
 
 import java.util.HashMap;
 

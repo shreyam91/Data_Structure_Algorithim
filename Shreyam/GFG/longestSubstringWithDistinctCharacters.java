@@ -6,7 +6,7 @@
 // Output: 7
 // Explanation: "eksforg" is the longest substring with all distinct characters.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class longestSubstringWithDistinctCharacters {
     static int distinctCharacter(String word){

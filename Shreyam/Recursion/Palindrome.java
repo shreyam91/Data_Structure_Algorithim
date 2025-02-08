@@ -1,4 +1,4 @@
-package Shreyam.recursion;
+package shreyam.recursion;
 
 public class Palindrome {
     static Boolean checkPalindrome(String s,int i){

@@ -14,7 +14,7 @@
 // Output
 // [null, -1, null, null, null, null, 1, null, 2]
 
-package Shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.HashMap;
 import java.util.Map;

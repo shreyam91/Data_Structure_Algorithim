@@ -8,7 +8,7 @@
 // Output: 3
 // Explanation: There are 2 pairs which sum up to 6 : {1, 5}, {1, 5} and {-1, 7}.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class pairWithGivenSumInASortedArray {
     public static int pairSum(int[] arr, int target){

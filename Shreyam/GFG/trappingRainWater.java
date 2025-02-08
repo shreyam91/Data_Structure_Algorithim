@@ -10,7 +10,7 @@
 // Output: 0
 // Explanation: We cannot trap water as there is no height bound on both sides.
 
-package Shreyam.gfg;
+package shreyam.gfg;
 
 public class trappingRainWater {
     static int waterTrapping(int[] arr){
