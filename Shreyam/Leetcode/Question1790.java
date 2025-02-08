@@ -19,15 +19,15 @@ public class Question1790 {
         int m = s1.length();
         int n = s2.length();
 
-        int mismatches = 0;
-
+        
+        // int mismatches = 0;
         List<Character> mismatch = new ArrayList<>();
         int pos =0;
         while(pos <m){
             if(s1.charAt(pos) != s2.charAt(pos)){
                 mismatch.add(s1.charAt(pos));
                 mismatch.add(s2.charAt(pos));
-                mismatches++;
+                // mismatches++;
             }
             pos++;
         }

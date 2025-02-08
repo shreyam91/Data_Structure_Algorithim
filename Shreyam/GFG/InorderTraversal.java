@@ -22,7 +22,7 @@ public class InorderTraversal {
     }
 
     ArrayList<Integer> inOrder(Node root) {
-        ArrayList<Integer> ans = new ArrayList();
+        ArrayList<Integer> ans = new ArrayList<>();
          solve(root, ans);
          return ans;
     }

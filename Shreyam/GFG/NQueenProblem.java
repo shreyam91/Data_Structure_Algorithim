@@ -18,8 +18,8 @@ public class NQueenProblem {
         boolean[] col = new boolean[n];
         boolean[] ndiag = new boolean[2*n-1];
         boolean[] rdiag = new boolean[2*n-1];
-        ArrayList<ArrayList<Integer>> res = new ArrayList();
-        ArrayList<Integer> tmp = new ArrayList();
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        ArrayList<Integer> tmp = new ArrayList<>();
         solve(n, 0, col, ndiag, rdiag, res, tmp);
         return res;
     }
