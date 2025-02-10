@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class KSumPaths {
-   static class Node {
+   public static class Node {
         int data;
         Node left;
         Node right;
