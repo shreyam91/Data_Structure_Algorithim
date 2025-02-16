@@ -1,6 +1,6 @@
 package shreyam.trickyQuestion;
 
-public class Question {
+public class MergedTwoString {
     static String merge(String str1, String str2){
         int n = str1.length();
         int m = str2.length();
