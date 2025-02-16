@@ -1,14 +1,15 @@
 // Question: Construct the Lexicographically Largest Valid Sequence... 
+
 package shreyam.leetCode;
 
 public class Question1718 {
-    public int[] constructDistancedSequence(int n) {
+    static int[] constructDistancedSequence(int n) {
         boolean used[] = new boolean[n+1];
         int seq[] = new int[2*n-1];
         backtrack(0,used, seq, n);
         return seq;
     }
-    public boolean backtrack(int index, boolean used[], int seq[], int n){
+    static boolean backtrack(int index, boolean used[], int seq[], int n){
         while(index < seq.length && seq[index]!=0) index++;
         if(index == seq.length) return true;
         for(int i=n;i>=1;i--){
@@ -34,6 +35,10 @@ public class Question1718 {
         return false;
     }
     public static void main(String[] args) {
-        
+        int n =3;
+        int[] res = constructDistancedSequence(n);
+        for(int ele : res){
+            System.out.print(ele + " ");
+        }
     }
 }
