@@ -10,7 +10,7 @@
 // Output: 2
 // Explanation: The longest valid parenthesis substring is "()".
 
-// package shreyam.gfg;
+package shreyam.gfg;
 
 import java.util.Stack;
 
