@@ -14,8 +14,8 @@ import java.util.Stack;
 
 public class DecodeTheString {
     static String decodeString(String s) {
-        Stack<Integer> count = new Stack();
-        Stack<String> result = new Stack();
+        Stack<Integer> count = new Stack<>();
+        Stack<String> result = new Stack<>();
         char[] arr = s.toCharArray();
         int i=0, num=0;
         String curr = "";

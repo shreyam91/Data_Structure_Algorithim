@@ -20,7 +20,7 @@ import java.util.Stack;
 
 public class GetMinFromStack {
     int min;
-    Stack<Integer> st = new Stack();
+    Stack<Integer> st = new Stack<>();
     public void push(int x) {
         if(st.isEmpty()){
             min=x;
