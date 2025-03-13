@@ -15,13 +15,11 @@ package shreyam.leetCode;
 public class Question2161 {
     public static int[] pivotArray(int[] nums, int pivot) {
         int lCount=0;
-        int gCount=0;
         int pCount=0;
         for(int num : nums){
             if(num < pivot){
                 lCount++;
             }else if(num > pivot){
-                gCount++;
             }else{
                 pCount++;
             }

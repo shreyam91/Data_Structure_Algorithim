@@ -10,50 +10,52 @@ package shreyam.leetCode;
 
 public class Question889 {
     public static class TreeNode {
-             int val;
-             TreeNode left;
-             TreeNode right;
-             TreeNode() {}
-             TreeNode(int val) { this.val = val; }
-             TreeNode(int val, TreeNode left, TreeNode right) {
-                 this.val = val;
-                 this.left = left;
-                 this.right = right;
-             }
-         }
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int val) { this.val = val; }
+    }
 
     private static int preIdx = 0;
     private static int postIdx = 0;
 
     public static TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
-        TreeNode curr = new TreeNode(preorder[preIdx]);
+        return helper(preorder, postorder, Integer.MAX_VALUE);
+    }
+
+    private static TreeNode helper(int[] preorder, int[] postorder, int postStop) {
+        if (preIdx == preorder.length) return null;
+
+        TreeNode root = new TreeNode(preorder[preIdx]);
         preIdx++;
 
-        if (curr.val != postorder[postIdx]) {
-            curr.left = constructFromPrePost(preorder, postorder);
-        }
-        if (curr.val != postorder[postIdx]) {
-            curr.right = constructFromPrePost(preorder, postorder);
+        if (root.val != postStop) {
+            root.left = helper(preorder, postorder, root.val); 
         }
 
-        postIdx++;
-        return curr;
+        if (root.val != postorder[postIdx]) {
+            root.right = helper(preorder, postorder, postStop); 
+        }
+
+        postIdx++; 
+        return root;
     }
 
     public static void printInOrder(TreeNode root) {
         if (root == null) {
             return;
         }
-        // Visit left subtree, print root, and visit right subtree
-        printInOrder(root.left);
-        System.out.print(root.val + " ");
-        printInOrder(root.right);
+        printInOrder(root.left);  
+        System.out.print(root.val + " ");  
+        printInOrder(root.right);  
     }
+
     public static void main(String[] args) {
         int[] preorder = {1, 2, 4, 5, 3, 6, 7};
         int[] postorder = {4, 5, 2, 6, 7, 3, 1};
 
         TreeNode root = constructFromPrePost(preorder, postorder);
 
+        printInOrder(root); 
     }
 }
