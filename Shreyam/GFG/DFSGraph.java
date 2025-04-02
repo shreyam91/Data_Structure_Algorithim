@@ -59,3 +59,26 @@ public class DFSGraph {
         System.out.println();
     }
 }
+
+
+
+
+
+// public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
+//     int n = adj.size();
+//     int[] visited = new int[n];
+//     Arrays.fill(visited, -1);
+//     ArrayList<Integer> ans = new ArrayList<> ();
+//     dfsUtil(0, visited, ans, adj);
+//     return ans;
+// }
+// public void dfsUtil(int idx, int[] visited, ArrayList<Integer> ans, ArrayList<ArrayList<Integer>> adj){
+//     visited[idx] = 1;
+//     ans.add(idx);
+//         for(int i = 0; i < adj.get(idx).size(); i++){
+//         if(visited[adj.get(idx).get(i)] == -1){
+//             dfsUtil(adj.get(idx).get(i), visited, ans, adj);
+//         }
+//     }
+//     return;
+// } 
