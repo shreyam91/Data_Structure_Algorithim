@@ -38,13 +38,11 @@ public class UndirectedGraphCycle {
     }
 
     public static boolean isCycle(int V, int[][] edges) {
-        // Code here
         List<Integer>[] adj = new ArrayList[V];
         for (int i = 0; i < V; i++) {
             adj[i] = new ArrayList<>();
         }
         
-        // Convert 2D edge array to adjacency list
         for (int[] edge : edges) {
             adj[edge[0]].add(edge[1]);
             adj[edge[1]].add(edge[0]);
@@ -64,11 +62,10 @@ public class UndirectedGraphCycle {
 
     public static void main(String[] args) {
         int V = 4;
-        int E = 4;
+        // int E = 4;
         int[][] edges = {{0, 1}, {0, 2}, {1, 2}, {2, 3}};
 
-        // Call the static method directly since it's now static
         boolean res = isCycle(V, edges);
-        System.out.println(res);  // Output: true, as there is a cycle
+        System.out.println(res);  
     }
 }
