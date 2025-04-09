@@ -8,7 +8,7 @@
 // Input: nums = [1,2,3]
 // Output: [1,2]
 
-// package shreyam.leetCode;
+package shreyam.leetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
