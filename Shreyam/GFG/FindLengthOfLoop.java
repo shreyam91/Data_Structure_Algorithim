@@ -6,16 +6,15 @@
 // Input: head: 1 → 2 → 3 → 4 → 5, c = 2
 // Output: 4
 
+
 package shreyam.gfg;
 
-
-class Node {
-    int data;
-    Node next;
-    Node(int d) { data = d; next = null; }
-}
-
 public class FindLengthOfLoop {
+    static class Node {
+        int data;
+        Node next;
+        Node(int d) { data = d; next = null; }
+    }
     public static int countNodesInLoop(Node head) {
         Node slow = head, fast = head;
         int count = 0;
