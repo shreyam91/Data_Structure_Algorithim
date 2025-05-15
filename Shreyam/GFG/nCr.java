@@ -13,7 +13,7 @@
 package shreyam.gfg;
 
 public class nCr{
-    public static int nCr(int n, int r) {
+    public static int ncr(int n, int r) {
         if (r > n) {
             return 0;
         }
@@ -27,6 +27,6 @@ public class nCr{
     }
     public static void main(String[] args) {
         int n = 5, r = 2;
-        System.out.println(nCr(n, r));
+        System.out.println(ncr(n, r));
     }
 }

@@ -10,49 +10,57 @@
 
 package shreyam.gfg;
 
-class Node {
-    Node[] links = new Node[26];
-    boolean end = false;
-}
 
-public class WordBreak {
-    public static Boolean[] dp;
-        public static Node root;
-                
-                public static boolean fun(int index, String s) {
-                    if (index >= s.length()) return true;
-                    if (dp[index] != null) return dp[index];
-                
-                Node temp = root;
+class WordBreak {
+    static class Node {
+        Node[] links = new Node[26];
+        boolean isEnd = false;
+    }
+
+    private static Node root;
+    private static Boolean[] dp;
+
+    private static boolean canBreakFrom(int index, String s) {
+        if (index == s.length()) return true;
+        if (dp[index] != null) return dp[index];
+
+        Node current = root;
         for (int j = index; j < s.length(); j++) {
-            if (temp.links[s.charAt(j) - 'a'] == null) break;
-            temp = temp.links[s.charAt(j) - 'a'];
-            if (temp.end && fun(j + 1, s)) {
+            char ch = s.charAt(j);
+            if (current.links[ch - 'a'] == null) break;
+            current = current.links[ch - 'a'];
+
+            if (current.isEnd && canBreakFrom(j + 1, s)) {
                 return dp[index] = true;
             }
         }
+
         return dp[index] = false;
     }
-    
-    public static boolean wordBreak(String s, String[] dictionary) {
-            root = new Node();
-            for (String str : dictionary) {
-                Node temp = root;
-                for (char ch : str.toCharArray()) {
-                    if (temp.links[ch - 'a'] == null) {
-                        temp.links[ch - 'a'] = new Node();
-                    }
-                    temp = temp.links[ch - 'a'];
-                }
-                temp.end = true;
+
+    private static void insertWord(String word) {
+        Node temp = root;
+        for (char ch : word.toCharArray()) {
+            if (temp.links[ch - 'a'] == null) {
+                temp.links[ch - 'a'] = new Node();
             }
-            dp = new Boolean[s.length()];
-            return fun(0, s);
+            temp = temp.links[ch - 'a'];
         }
-    
-        public static void main(String[] args) {
-            String s = "ilike";
-            String dictionary[] = {"i", "like", "gfg"};
-            System.out.println(wordBreak(s, dictionary));
+        temp.isEnd = true;
+    }
+
+    public static boolean wordBreak(String s, String[] dictionary) {
+        root = new Node();
+        for (String word : dictionary) {
+            insertWord(word);
+        }
+        dp = new Boolean[s.length()];
+        return canBreakFrom(0, s);
+    }
+
+    public static void main(String[] args) {
+        String s = "ilike";
+        String[] dictionary = {"i", "like", "gfg"};
+        System.out.println(wordBreak(s, dictionary)); // Output: true
     }
 }

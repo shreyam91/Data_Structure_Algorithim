@@ -16,7 +16,7 @@
 package shreyam.misc;
 
 public class LongestContinuousSequence{
-    public static int LongestContinuousSequence(int[] arr) {
+    public static int LongestContinuousSequences(int[] arr) {
         int maxCount = 0;
         int maxIndex = -1;
     
@@ -50,7 +50,7 @@ public class LongestContinuousSequence{
     
     public static void main(String[] args) {
         int[] arr ={1,1,1,0,1};
-        int res = LongestContinuousSequence(arr);
+        int res = LongestContinuousSequences(arr);
         System.out.println(res);
     }
 }

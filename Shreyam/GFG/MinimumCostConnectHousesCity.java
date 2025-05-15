@@ -42,7 +42,7 @@ public class MinimumCostConnectHousesCity {
         return cost;        
     }
     public static void main(String[] args) {
-        int n = 5; 
+        // int n = 5; 
         int houses[][] = {{0, 7}, {0, 9}, {20, 7}, {30, 7}, {40, 70}};
 
         int res = minCost(houses);

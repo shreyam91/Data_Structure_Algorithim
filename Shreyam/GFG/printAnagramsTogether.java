@@ -19,7 +19,6 @@ import java.util.HashMap;
 import java.util.List;
 
 public class printAnagramsTogether {
-    @SuppressWarnings({ "unchecked", "rawtypes" })
     public static List<List<String>> printAnagram(String [] words){
         HashMap<String, List<String>> angramMap = new HashMap<>();
 
@@ -29,7 +28,7 @@ public class printAnagramsTogether {
             String sorted = String.valueOf(ch);
             
             if(!angramMap.containsKey(sorted)){
-                angramMap.put(sorted,new ArrayList());
+                angramMap.put(sorted,new ArrayList<>());
             }
             
             angramMap.get(sorted).add(word);
