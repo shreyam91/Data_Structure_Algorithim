@@ -3,6 +3,8 @@
 // Input: edges = [2,2,3,-1], node1 = 0, node2 = 1
 // Output: 2
 
+package shreyam.leetCode;
+
 import java.util.HashMap;
 import java.util.Map;
 

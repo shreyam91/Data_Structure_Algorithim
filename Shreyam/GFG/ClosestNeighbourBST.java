@@ -9,32 +9,53 @@
 package shreyam.gfg;
 
 public class ClosestNeighbourBST {
-    class Node {
-    int data;
-    Node left, right;
+    
+    static class Node {
+        int data;
+        Node left, right;
 
-    Node(int x) {
-        data = x;
-        left = right = null;
+        Node(int x) {
+            data = x;
+            left = right = null;
+        }
     }
-}
-    public static  int findMaxFork(Node root, int k) {
-        int result = -1; 
+
+     static int findMaxFork(Node root, int k) {
+        int result = -1;
 
         while (root != null) {
             if (root.data <= k) {
-                result = root.data;     
-                root   = root.right;    
+                result = root.data;
+                root = root.right;
             } else {
-                root = root.left;       
+                root = root.left;
             }
         }
 
-        return result; 
+        return result;
     }
+
+     static Node insert(Node root, int val) {
+        if (root == null) {
+            return new Node(val);
+        }
+        if (val < root.data) {
+            root.left = insert(root.left, val);
+        } else {
+            root.right = insert(root.right, val);
+        }
+        return root;
+    }
+
     public static void main(String[] args) {
-        Node root = {10, 7, 15, 2, 8, 11, 16};
+        int[] values = {10, 7, 15, 2, 8, 11, 16};
+        Node root = null;
+
+        for (int val : values) {
+            root = insert(root, val);
+        }
+
         int k = 14;
-        System.out.println(findMaxFork(root, k));
+        System.out.println(findMaxFork(root, k));  
     }
 }
