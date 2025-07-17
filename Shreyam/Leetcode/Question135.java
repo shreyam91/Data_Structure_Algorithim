@@ -10,7 +10,7 @@
 // Input: ratings = [1,0,2]
 // Output: 5
 
-package shreyam.leetcode;
+package shreyam.leetCode;
 
 import java.util.Arrays;
 

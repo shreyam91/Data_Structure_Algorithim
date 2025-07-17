@@ -10,7 +10,7 @@
 // Input: n = 10, m = 3
 // Output: 19
 
-package shreyam.leetcode; 
+package shreyam.leetCode; 
 
 public class Question2894 {
     public static int differenceOfSums(int n, int m) {
