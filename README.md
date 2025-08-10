@@ -21,7 +21,7 @@ This **DSA Learning Repository** is designed to help you learn **Data Structures
 The **DSA Learning Repository** is aimed at individuals who wish to master **Data Structures and Algorithms**. The repository organizes learning material by topics such as Arrays, Linked Lists, Trees, Graphs, Sorting, Searching, Dynamic Programming, and more. It provides the following:
 
 - **Detailed Explanations**: Each topic comes with a thorough explanation, including theoretical concepts and visual aids.
-- **Code Examples**: Examples are written in multiple programming languages (e.g., Python, C++, Java) to cater to a wide audience.
+- **Code Examples**: Examples are written in multiple programming languages (e.g. Java) to cater to a wide audience.
 - **Practice Problems**: Each topic contains a curated list of problems for practice, often with increasing difficulty levels.
 - **Solutions**: Solutions to problems are provided for self-assessment, along with time and space complexity analysis.
 - **Interactive Quizzes (Optional)**: Quizzes are included to test knowledge after completing each section.
