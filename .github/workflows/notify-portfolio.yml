@@ -10,18 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Notify Portfolio
-        uses: actions/github-script@v7
+      - name: Send DSA update to Portfolio
+        uses: peter-evans/repository-dispatch@v4
         with:
-          github-token: ${{ secrets.PORTFOLIO_DISPATCH_TOKEN }}
-          script: |
-            await github.rest.repos.createDispatchEvent({
-              owner: 'shreyam91',
-              repo: 'portfolio',
-              event_type: 'dsa-updated',
-              client_payload: {
-                repository: 'shreyam91/Data_Structure_Algorithim',
-                branch: 'dsaforge',
-                commit: context.sha
-              }
-            });
+          token: ${{ secrets.PORTFOLIO_DISPATCH_TOKEN }}
+          repository: shreyam91/portfolio
+          event-type: dsa-updated
+          client-payload: |
+            {
+              "repository": "shreyam91/Data_Structure_Algorithim",
+              "branch": "dsaforge",
+              "commit": "${{ github.sha }}"
+            }
