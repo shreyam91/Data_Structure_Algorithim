@@ -1,0 +1,27 @@
+name: Notify Portfolio
+
+on:
+  push:
+    branches:
+      - dsaforge
+
+jobs:
+  notify-portfolio:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Notify Portfolio
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PORTFOLIO_DISPATCH_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: 'shreyam91',
+              repo: 'portfolio',
+              event_type: 'dsa-updated',
+              client_payload: {
+                repository: 'shreyam91/Data_Structure_Algorithim',
+                branch: 'dsaforge',
+                commit: context.sha
+              }
+            });
