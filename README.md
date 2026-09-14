@@ -139,3 +139,11 @@ Feel free to contribute problems, solutions, or code optimizations.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0009-palindrome-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/main/0009-palindrome-number/) | Easy |
+<!---LeetCode Topics End-->
