@@ -150,9 +150,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [plus-one](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/plus-one/) | Easy |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [plus-one](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/plus-one/) | Easy |
 <!---LeetCode Topics End-->
