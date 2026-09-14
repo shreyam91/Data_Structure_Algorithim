@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/print-1-to-n-without-using-loops3621/",
+    "id": 704166,
+    "fetchedAt": "2026-09-14T12:55:07.486Z"
+  },
+  "problem": {
+    "pid": "704166",
+    "id": 704166,
+    "slug": "print-1-to-n-without-using-loops3621",
+    "title": "1 to n Without Loop",
+    "isProblemOfTheDay": false,
+    "statement": "Given an positive integer n, print numbers from 1 to n without using loops.\n\nImplement the function printTillN() to print the numbers from 1 to n as space-separated integers.",
+    "examples": [
+      {
+        "input": "n = 5",
+        "output": "1 2 3 4 5",
+        "explanation": "We have to print numbers from 1 to 5."
+      },
+      {
+        "input": "n = 10",
+        "output": "1 2 3 4 5 6 7 8 9 10",
+        "explanation": "We have to print numbers from 1 to 10."
+      }
+    ]
+  },
+  "languages": {
+    "c": "C (gcc 5.4)",
+    "cpp": "C++ (17)",
+    "java": "Java (21)",
+    "python3": "Python3",
+    "csharp": "C#",
+    "javascript": "Javascript (Node v22)"
+  },
+  "template": {
+    "c": {
+      "initialCode": "#include <stdio.h>\n\n//Position this line where user code will be pasted.\nint main() {\n    int t;\n    scanf(\"%d\", &t);\n    while (t--) {\n        int N;\n        scanf(\"%d\", &N);\n        printTillN(N);\n        printf(\"\\n\");\n\n        printf(\"~%s\", \"\\n\");\n    }\n    return 0;\n}",
+      "userCode": "void printTillN(int n) {\n    // code here\n    \n}\n"
+    },
+    "cpp": {
+      "initialCode": "#include <bits/stdc++.h>\nusing namespace std;\n\n//Position this line where user code will be pasted.\nint main() {\n    int t;\n    cin >> t;\n    while (t--) {\n        int n;\n        cin >> n;\n        Solution ob;\n        ob.printTillN(n);\n        cout << endl;\n\n        cout << \"~\"\n             << \"\\n\";\n    }\n    return 0;\n}",
+      "userCode": "class Solution {\n  public:\n    void printTillN(int n) {\n        // code here\n        \n    }\n};"
+    },
+    "java": {
+      "initialCode": "import java.util.Scanner;\n\nclass GFG {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int t = scanner.nextInt();\n        while (t-- > 0) {\n            int n = scanner.nextInt();\n            Solution ob = new Solution();\n            ob.printTillN(n);\n            System.out.println();\n            System.out.println(\"~\");\n        }\n        scanner.close();\n    }\n}",
+      "userCode": "class Solution {\n    public void printTillN(int n) {\n        // code here\n        \n    }\n}"
+    },
+    "python3": {
+      "initialCode": "#Initial Template for Python 3\n\nif __name__ == '__main__':\n    t = int(input())\n    for _ in range(t):\n        n = int(input())\n        ob = Solution()\n        ob.printTillN(n)\n        print()\n        print(\"~\")\n",
+      "userCode": "class Solution:\n    def printTillN(self, n):\n    \t#code here "
+    },
+    "csharp": {
+      "initialCode": "// Initial Template for C#\n\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\n\nnamespace DriverCode {\n\nclass GFG {\n    static void Main(string[] args) {\n        int testcases; // Taking testcase as input\n        testcases = Convert.ToInt32(Console.ReadLine());\n        while (testcases-- > 0) // Looping through all testcases\n        {\n            int n = Convert.ToInt32(Console.ReadLine());\n            Solution obj = new Solution();\n            obj.printTillN(n);\n            Console.WriteLine();\n\n            Console.Write(\"~\" + \"\\n\");\n        }\n    }\n}\n}\n",
+      "userCode": "class Solution {\n    public void printTillN(int n) {\n        // Code here\n        \n    }\n}"
+    },
+    "javascript": {
+      "initialCode": "let readline = require('readline');\n\nlet rl = readline.createInterface({input : process.stdin, output : process.stdout});\n\nlet input = [];\n\nrl.on('line', (line) => { input.push(line); });\n\nrl.on('close', () => {\n    let t = parseInt(input[0]);\n    let index = 1;\n    while (t--) {\n        let n = parseInt(input[index++]);\n        let ob = new Solution();\n        ob.printTillN(n);\n        console.log();\n        console.log(\"~\");\n    }\n});",
+      "userCode": "class Solution {\n    printTillN(n) {\n        // code here\n        \n    }\n}"
+    }
+  },
+  "inputFormat": {
+    "arguments": "n = ",
+    "datatype": "INTEGER"
+  },
+  "constraints": [
+    {
+      "min_value": "1",
+      "max_value": "1000"
+    }
+  ],
+  "complexity": {
+    "time": "O(n)",
+    "auxiliarySpace": "O(n)"
+  },
+  "tagList": {
+    "topicTags": [
+      "Recursion"
+    ],
+    "companyTags": null
+  },
+  "submission": {
+    "language": "java",
+    "code": "class Solution {\r\n    public void printTillN(int n) {\r\n        // code here\r\n        if (n == 0) {\r\n                    return;\r\n                }\r\n\r\n                printTillN(n - 1);\r\n                System.out.print(n + \" \");\r\n    }\r\n}",
+    "submissionId": "77161a40-8d79-4115-ad45-04010873b8a4",
+    "status": 1,
+    "viewMode": "correct",
+    "runtime": 0.23,
+    "submittedAt": "2026-09-14T12:55:07.487Z"
+  }
+}
