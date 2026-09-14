@@ -145,5 +145,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 | [0058-length-of-last-word](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0058-length-of-last-word/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
