@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/prime-number2314/",
+    "id": 703954,
+    "fetchedAt": "2026-09-14T17:49:59.010Z"
+  },
+  "problem": {
+    "pid": "703954",
+    "id": 703954,
+    "slug": "prime-number2314",
+    "title": "Prime Number",
+    "isProblemOfTheDay": false,
+    "statement": "Given a number n, determine whether it is a prime number or not.Note: A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.",
+    "examples": [
+      {
+        "input": "n = 7",
+        "output": "true",
+        "explanation": "7 has exactly two divisors: 1 and 7, making it a prime number."
+      },
+      {
+        "input": "n = 25",
+        "output": "false",
+        "explanation": "25 has more than two divisors: 1, 5, and 25, so it is not a prime number."
+      },
+      {
+        "input": "n = 1",
+        "output": "false",
+        "explanation": "1 has only one divisor (1 itself), which is not sufficient for it to be considered prime."
+      }
+    ]
+  },
+  "languages": {
+    "c": "C (gcc 5.4)",
+    "cpp": "C++ (17)",
+    "java": "Java (21)",
+    "python3": "Python3",
+    "csharp": "C#",
+    "javascript": "Javascript (Node v22)"
+  },
+  "template": {
+    "c": {
+      "initialCode": "\n// Initial Template for C\n#include <math.h>\n#include <stdbool.h>\n#include <stdio.h>\n\n//Position this line where user code will be pasted.\nint main() {\n    int t, n;\n    scanf(\"%d\", &t);\n    while (t--) {\n        scanf(\"%d\", &n);\n        if (isPrime(n))\n            printf(\"true\\n\");\n        else\n            printf(\"false\\n\");\n\n        printf(\"~\\n\");\n    }\n    return 0;\n}\n",
+      "userCode": "bool isPrime(int n) {\n    // code here\n    \n}\n"
+    },
+    "cpp": {
+      "initialCode": "#include <bits/stdc++.h>\nusing namespace std;\n\n//Position this line where user code will be pasted.\nint main() {\n    int t;\n    cin >> t;\n    while (t--) {\n        int N;\n        cin >> N;\n        Solution ob;\n        cout << (ob.isPrime(N) ? \"true\" : \"false\") << endl;\n\n        cout << \"~\"\n             << \"\\n\";\n    }\n    return 0;\n}",
+      "userCode": "class Solution {\n  public:\n    bool isPrime(int n) {\n        // code here\n        \n    }\n};\n"
+    },
+    "java": {
+      "initialCode": "import java.io.*;\nimport java.util.*;\n\n//Position this line where user code will be pasted.\nclass GFG {\n    public static void main(String args[]) throws IOException {\n        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));\n        int t = Integer.parseInt(read.readLine());\n\n        while (t-- > 0) {\n            int n = Integer.parseInt(read.readLine());\n            Solution ob = new Solution();\n            if (ob.isPrime(n)) {\n                System.out.println(\"true\");\n            } else {\n                System.out.println(\"false\");\n            }\n            System.out.println(\"~\");\n        }\n    }\n}\n",
+      "userCode": "class Solution {\n    static boolean isPrime(int n) {\n        // code here\n        \n    }\n}"
+    },
+    "python3": {
+      "initialCode": "# Initial Template for Python 3\nimport math\n\nif __name__ == '__main__':\n    t = int(input())  # Read number of test cases\n    for _ in range(t):\n        n = int(input())  # Read the number to check primality\n        ob = Solution()\n        print(\"true\" if ob.isPrime(n) else \"false\")\n        print(\"~\")\n",
+      "userCode": "class Solution:\n    def isPrime(self, n):\n        # code here"
+    },
+    "csharp": {
+      "initialCode": "using System;\n\nnamespace DriverCode {\nclass GFG {\n    static void Main(string[] args) {\n        int testcases; // Taking testcase as input\n        testcases = Convert.ToInt32(Console.ReadLine());\n        while (testcases-- > 0) // Looping through all testcases\n        {\n            int n = Convert.ToInt32(Console.ReadLine()); // Input for number\n            Solution obj = new Solution();\n            bool res = obj.isPrime(n);\n            Console.WriteLine(res ? \"true\"\n                                  : \"false\"); // Print \"True\" if prime, else \"False\"\n            Console.WriteLine(\"~\");\n        }\n    }\n}\n}\n",
+      "userCode": "class Solution {\n    public bool isPrime(int n) {\n        // code here\n        \n    }\n}"
+    },
+    "javascript": {
+      "initialCode": "// Initial Template for JavaScript\n\n'use strict';\n\nprocess.stdin.resume();\nprocess.stdin.setEncoding('utf-8');\n\nlet inputString = '';\nlet currentLine = 0;\n\nprocess.stdin.on('data', inputStdin => { inputString += inputStdin; });\n\nprocess.stdin.on('end', _ => {\n    inputString =\n        inputString.trim().split('\\n').map(string => { return string.trim(); });\n\n    main();\n});\n\nfunction readLine() { return inputString[currentLine++]; }\n\nfunction main() {\n    let t = parseInt(readLine());\n    for (let i = 0; i < t; i++) {\n        let n = parseInt(readLine());\n        let obj = new Solution();\n        let res = obj.isPrime(n);\n        console.log(res ? \"true\" : \"false\");\n        console.log(\"~\");\n    }\n}\n",
+      "userCode": "/**\n * @param {number} n\n * @returns {boolean}\n */\nclass Solution {\n    isPrime(n) {\n        // code here\n        \n    }\n}"
+    }
+  },
+  "inputFormat": {
+    "arguments": "n =",
+    "datatype": "INTEGER"
+  },
+  "constraints": [
+    {
+      "min_value": "1",
+      "max_value": "10^9"
+    }
+  ],
+  "complexity": {
+    "time": "O(sqrt(n))",
+    "auxiliarySpace": "O(1)"
+  },
+  "tagList": {
+    "topicTags": [
+      "Mathematics",
+      "Prime Number"
+    ],
+    "companyTags": [
+      "VMWare",
+      "Amazon",
+      "SAP Labs"
+    ]
+  },
+  "submission": {
+    "language": "java",
+    "code": "class Solution {\r\n    static boolean isPrime(int n) {\r\n        if (n <= 1) return false;\r\n                if (n <= 3) return true;\r\n\r\n                // Skip multiples of 2 and 3\r\n                if (n % 2 == 0 || n % 3 == 0) return false;\r\n\r\n                // Check factors of form 6k +/- 1 up to sqrt(n)\r\n                for (int i = 5; i * i <= n; i += 6) {\r\n                    if (n % i == 0 || n % (i + 2) == 0)\r\n                        return false;\r\n                }\r\n                return true;\r\n        \r\n    }\r\n}",
+    "submissionId": "59092326-65e4-402b-b2d6-975cf2ce172b",
+    "status": 1,
+    "viewMode": "correct",
+    "runtime": 0.07,
+    "submittedAt": "2026-09-14T17:49:59.010Z"
+  }
+}
