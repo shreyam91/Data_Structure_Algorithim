@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/sum-all-array-elements/",
+    "id": 705382,
+    "fetchedAt": "2026-09-14T18:03:34.747Z"
+  },
+  "problem": {
+    "pid": "705382",
+    "id": 705382,
+    "slug": "sum-all-array-elements",
+    "title": "Sum of Array",
+    "isProblemOfTheDay": false,
+    "statement": "Given an integer array arr[], return the sum of all elements of arr.",
+    "examples": [
+      {
+        "input": "arr[] = [1, 2, 3, 4]",
+        "output": "10",
+        "explanation": "1 + 2 + 3 + 4 = 10."
+      },
+      {
+        "input": "arr[] = [1, 3, 3]",
+        "output": "7",
+        "explanation": "1 + 3 + 3 = 7."
+      }
+    ]
+  },
+  "languages": {
+    "c": "C (gcc 5.4)",
+    "cpp": "C++ (17)",
+    "java": "Java (21)",
+    "python3": "Python3",
+    "csharp": "C#",
+    "javascript": "Javascript (Node v22)"
+  },
+  "template": {
+    "c": {
+      "initialCode": "#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\n#define MAX 100005\n\nint main() {\n    int t;\n    scanf(\"%d\", &t);\n    getchar();\n\n    while (t--) {\n        char line[1000000];\n        fgets(line, sizeof(line), stdin);\n\n        int arr[MAX];\n        int n = 0;\n\n        char *token = strtok(line, \" \\n\");\n\n        while (token != NULL) {\n            arr[n++] = atoi(token);\n            token = strtok(NULL, \" \\n\");\n        }\n\n        int ans = arraySum(arr, n);\n\n        printf(\"%d\\n\", ans);\n        printf(\"~\\n\");\n    }\n\n    return 0;\n}",
+      "userCode": "int arraySum(int arr[], int size) {\n    // code here\n    \n}"
+    },
+    "cpp": {
+      "initialCode": "#include <bits/stdc++.h>\nusing namespace std;\n\n//Position this line where user code will be pasted.\n\nint main() {\n    string ts;\n    getline(cin, ts);\n    int t = stoi(ts);\n\n    while (t--) {\n        string line;\n        getline(cin, line);\n        stringstream ss(line);\n        vector<int> nums;\n        int num;\n        while (ss >> num) {\n            nums.push_back(num);\n        }\n        Solution ob;\n        int ans = ob.arraySum(nums); // Pass the vector nums to the sum function\n        cout << ans << \"\\n~\\n\";\n    }\n    return 0;\n}",
+      "userCode": "class Solution {\n  public:\n    int arraySum(vector<int>& arr) {\n        // code here\n        \n    }\n};"
+    },
+    "java": {
+      "initialCode": "// Initial Template for Java\n\nimport java.io.*;\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int t =\n            Integer.parseInt(scanner.nextLine().trim()); // Read number of test cases\n\n        while (t-- > 0) {\n            String line = scanner.nextLine().trim(); // Read the entire line\n            String[] numsStr = line.split(\" \"); // Split the line into string numbers\n            int[] nums = new int[numsStr.length];\n            for (int i = 0; i < numsStr.length; i++) {\n                nums[i] =\n                    Integer.parseInt(numsStr[i]); // Convert each string to integer\n            }\n\n            int ans = new Solution().arraySum(\n                nums); // Compute the sum using the Solution class\n\n            System.out.println(ans); // Print the result\n\n            System.out.println(\"~\");\n        }\n    }\n}",
+      "userCode": "class Solution {\n    public int arraySum(int arr[]) {\n        // code here\n        \n    }\n}\n"
+    },
+    "python3": {
+      "initialCode": "# Driver code\nif __name__ == \"__main__\":\n    tc = int(input())\n    while tc > 0:\n        arr = list(map(int, input().strip().split()))\n        ob = Solution()\n        ans = ob.arraySum(arr)\n        print(ans)\n        tc = tc - 1\n        print(\"~\")\n",
+      "userCode": "class Solution:\n\tdef arraySum(self, arr):\n   \t\t# code here\n   \t    "
+    },
+    "csharp": {
+      "initialCode": "using System;\nusing System.Linq;\n\npublic class GFG {\n    public static void Main(string[] args) {\n        int t = int.Parse(Console.ReadLine().Trim()); // Read number of test cases\n\n        while (t-- > 0) {\n            string line = Console.ReadLine().Trim(); // Read the entire line\n            int[] nums = line.Split(' ')\n                             .Select(int.Parse)\n                             .ToArray(); // Split the line into integers\n\n            int ans = new Solution().arraySum(\n                nums); // Compute the sum using the Solution class\n\n            Console.WriteLine(ans); // Print the result\n\n            Console.WriteLine(\"~\");\n        }\n    }\n}",
+      "userCode": "class Solution {\n    public int arraySum(int[] arr) {\n        // code here\n        \n    }\n}"
+    },
+    "javascript": {
+      "initialCode": "// Initial Template for javascript\n\n// Driver code\nconst readline = require('readline');\nconst rl = readline.createInterface({input : process.stdin, output : process.stdout});\n\nlet inputLines = [];\nlet currentLine = 0;\n\nrl.on('line', (line) => { inputLines.push(line.trim()); });\n\nrl.on('close', () => { main(); });\n\nfunction readLine() { return inputLines[currentLine++]; }\n\nfunction main() {\n    let tc = parseInt(readLine());\n    while (tc > 0) {\n        let arr = readLine().split(' ').map(Number);\n        let ob = new Solution();\n        let ans = ob.arraySum(arr);\n        console.log(ans);\n        console.log(\"~\");\n        tc--;\n    }\n}\n",
+      "userCode": "class Solution {\n    arraySum(arr) {\n        // code here\n        \n    }\n}"
+    }
+  },
+  "inputFormat": {
+    "arguments": "arr[] = ",
+    "datatype": "INTEGER_ARRAY"
+  },
+  "constraints": [
+    {
+      "min_size": "0",
+      "max_size": "10^5",
+      "element_min_value": "0",
+      "element_max_value": "10^4"
+    }
+  ],
+  "complexity": {
+    "time": "O(n)",
+    "auxiliarySpace": "O(1)"
+  },
+  "tagList": {
+    "topicTags": [
+      "Arrays"
+    ],
+    "companyTags": null
+  },
+  "submission": {
+    "language": "java",
+    "code": "class Solution {\r\n    public int arraySum(int arr[]) {\r\n        int sum =0;\r\n        int n = arr.length;\r\n        for (int i=0; i<n; i++ ){\r\n            sum = sum + arr[i];\r\n        }\r\n        return sum;\r\n        \r\n    }\r\n}\r\n",
+    "submissionId": "a56ff6da-55a3-4741-924c-e864fa9d465a",
+    "status": 1,
+    "viewMode": "correct",
+    "runtime": 0.26,
+    "submittedAt": "2026-09-14T18:03:34.747Z"
+  }
+}
