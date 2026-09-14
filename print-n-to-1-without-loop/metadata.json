@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "platform": "gfg",
+    "url": "https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/",
+    "id": 712048,
+    "fetchedAt": "2026-09-14T16:41:12.882Z"
+  },
+  "problem": {
+    "pid": "712048",
+    "id": 712048,
+    "slug": "print-n-to-1-without-loop",
+    "title": "Print n to 1 Without Loop",
+    "isProblemOfTheDay": false,
+    "statement": "Print numbers from n to 1 (space separated) without the help of loops.",
+    "examples": [
+      {
+        "input": "n = 10",
+        "output": "10 9 8 7 6 5 4 3 2 1"
+      }
+    ]
+  },
+  "languages": {
+    "cpp": "C++ (17)",
+    "java": "Java (21)",
+    "python3": "Python3",
+    "csharp": "C#",
+    "javascript": "Javascript (Node v22)"
+  },
+  "template": {
+    "cpp": {
+      "initialCode": "#include <bits/stdc++.h>\nusing namespace std;\n\n//Position this line where user code will be pasted.\n/* Driver program to test printNos */\nint main() {\n    int T;\n\n    // taking testcases\n    cin >> T;\n\n    while (T--) {\n        int n;\n\n        // input n\n        cin >> n;\n        Solution ob;\n        // calling printNos() function\n        ob.printNos(n);\n        cout << \"\\n\";\n\n        cout << \"~\"\n             << \"\\n\";\n    }\n    return 0;\n}\n",
+      "userCode": "class Solution {\n  public:\n    void printNos(int n) {\n        // code here\n        \n    }\n};"
+    },
+    "java": {
+      "initialCode": "import java.io.*;\nimport java.util.*;\n\nclass Main {\n    // Driver code\n    public static void main(String[] args) throws Exception {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        int t = Integer.parseInt(br.readLine().trim());\n        while (t-- > 0) {\n            int n = Integer.parseInt(br.readLine().trim());\n            Solution obj = new Solution();\n            obj.printNos(n);\n            System.out.println();\n\n            System.out.println(\"~\");\n        }\n    }\n}",
+      "userCode": "class Solution {\n    void printNos(int n) {\n        // code here\n        \n    }\n}"
+    },
+    "python3": {
+      "initialCode": "#Initial Template for Python 3\n\nif __name__ == '__main__':\n    t = int(input())\n    for _ in range(t):\n        n = int(input())\n        ob = Solution()\n        ob.printNos(n)\n        print()\n        print(\"~\")",
+      "userCode": "class Solution:\n    def printNos(self, n):\n        # Code here"
+    },
+    "csharp": {
+      "initialCode": "// Initial Template for C#\n\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\n\nnamespace DriverCode {\n\nclass GFG {\n    static void Main(string[] args) {\n        int testcases; // Taking testcase as input\n        testcases = Convert.ToInt32(Console.ReadLine());\n        while (testcases-- > 0) // Looping through all testcases\n        {\n\n            int n = Convert.ToInt32(Console.ReadLine()); // Input for size of array\n            Solution obj = new Solution();\n            obj.printNos(n);\n            Console.Write('\\n');\n\n            Console.Write(\"~\" + \"\\n\");\n        }\n    }\n}\n}\n",
+      "userCode": "class Solution {\n    public void printNos(int n) {\n        // code here\n        \n    }\n}"
+    },
+    "javascript": {
+      "initialCode": "// Initial Template for javascript\n\"use strict\";\n\nprocess.stdin.resume();\nprocess.stdin.setEncoding(\"utf-8\");\n\nlet inputString = \"\";\nlet currentLine = 0;\n\nprocess.stdin.on(\"data\", (inputStdin) => { inputString += inputStdin; });\n\nprocess.stdin.on(\"end\", (_) => {\n    inputString = inputString.trim().split(\"\\n\").map((string) => string.trim());\n\n    main();\n});\n\nfunction readLine() { return inputString[currentLine++]; }\n\n// Position this line where user code will be pasted.\nfunction main() {\n    let t = parseInt(readLine());\n    for (let i = 0; i < t; i++) {\n        let n = parseInt(readLine());\n        let obj = new Solution();\n        obj.printNos(n);\n        console.log();\n        console.log(\"~\");\n    }\n}\n",
+      "userCode": "/**\n * @param {number} N\n * @returns {void}\n */\nclass Solution {\n    printNos(n) {\n        // code here\n        \n    }\n}\n"
+    }
+  },
+  "inputFormat": {
+    "arguments": "n = ",
+    "datatype": "INTEGER"
+  },
+  "constraints": [
+    {
+      "min_value": "1",
+      "max_value": "1000"
+    }
+  ],
+  "complexity": {
+    "time": "O(n)",
+    "auxiliarySpace": "O(n)"
+  },
+  "tagList": {
+    "topicTags": [
+      "Recursion"
+    ],
+    "companyTags": null
+  },
+  "submission": {
+    "language": "java",
+    "code": "class Solution {\r\n    void printNos(int n) {\r\n        // code here\r\n        if (n == 0) {\r\n                    return;\r\n                }\r\n\r\n                System.out.print(n + \" \");\r\n                printNos(n - 1);\r\n    }\r\n}",
+    "submissionId": "fab25734-e045-4b44-a6c5-47e8ff7441f0",
+    "status": 1,
+    "viewMode": "correct",
+    "runtime": 0.21,
+    "submittedAt": "2026-09-14T16:41:12.882Z"
+  }
+}
