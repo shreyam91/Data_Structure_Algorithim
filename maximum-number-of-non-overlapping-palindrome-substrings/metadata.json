@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings",
+    "fetchedAt": "2026-09-15T07:07:38.605Z"
+  },
+  "problem": {
+    "id": "2559",
+    "frontendId": "2472",
+    "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+    "difficulty": "Hard",
+    "description": "<p>You are given a string <code>s</code> and a <strong>positive</strong> integer <code>k</code>.</p>\n\n<p>Select a set of <strong>non-overlapping</strong> substrings from the string <code>s</code> that satisfy the following conditions:</p>\n\n<ul>\n\t<li>The <strong>length</strong> of each substring is <strong>at least</strong> <code>k</code>.</li>\n\t<li>Each substring is a <strong>palindrome</strong>.</li>\n</ul>\n\n<p>Return <em>the <strong>maximum</strong> number of substrings in an optimal selection</em>.</p>\n\n<p>A <strong>substring</strong> is a contiguous sequence of characters within a string.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;abaccdbbd&quot;, k = 3\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> We can select the substrings underlined in s = &quot;<u><strong>aba</strong></u>cc<u><strong>dbbd</strong></u>&quot;. Both &quot;aba&quot; and &quot;dbbd&quot; are palindromes and have a length of at least k = 3.\nIt can be shown that we cannot find a selection with more than two valid substrings.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;adbcda&quot;, k = 2\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> There is no palindrome substring of length at least 2 in the string.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= s.length &lt;= 2000</code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n</ul>\n",
+    "topics": []
+  },
+  "submission": {
+    "status": 10,
+    "language": "Java",
+    "code": "class Solution {\n    public int maxPalindromes(String s, int k) {\n        int n = s.length();\n\n        boolean [][] palindrome = new boolean[n][n];\n\n        for(int i = n-1; i>= 0; i--){\n            for(int j = i; j<n;j++){\n                if(s.charAt(i) == s.charAt(j) && (j-i <= 2 || palindrome[i+1][j-1])){\n                    palindrome[i][j] = true;\n                }\n            }\n        }\n        int [] dp = new int[n+1];\n        for(int i=1; i<= n; i++){\n            dp[i] = dp[i-1];\n\n            for(int start = 0; start <= i-k; start++){\n                if(palindrome[start][i-1]){\n                    dp[i] = Math.max(dp[i],dp[start] +1);\n                }\n            }\n        }\n        return dp[n];\n    }\n}",
+    "submittedAt": "2026-09-15T07:07:30.000Z"
+  },
+  "performance": {
+    "runtime": "115 ms",
+    "runtimePercentile": 32.161300000000054,
+    "memory": "61.4 MB",
+    "memoryPercentile": 44.22130000000005
+  }
+}
