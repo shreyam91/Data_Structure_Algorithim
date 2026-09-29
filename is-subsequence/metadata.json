@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "platform": "leetcode",
+    "url": "https://leetcode.com/problems/is-subsequence",
+    "fetchedAt": "2026-09-29T12:10:27.078Z"
+  },
+  "problem": {
+    "id": "392",
+    "frontendId": "392",
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy",
+    "description": "<p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>subsequence</strong> of </em><code>t</code><em>, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p>A <strong>subsequence</strong> of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., <code>&quot;ace&quot;</code> is a subsequence of <code>&quot;<u>a</u>b<u>c</u>d<u>e</u>&quot;</code> while <code>&quot;aec&quot;</code> is not).</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"abc\", t = \"ahbgdc\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"axc\", t = \"ahbgdc\"\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>0 &lt;= t.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s</code> and <code>t</code> consist only of lowercase English letters.</li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow up:</strong> Suppose there are lots of incoming <code>s</code>, say <code>s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub></code> where <code>k &gt;= 10<sup>9</sup></code>, and you want to check one by one to see if <code>t</code> has its subsequence. In this scenario, how would you change your code?",
+    "topics": []
+  },
+  "submission": {
+    "status": 10,
+    "language": "Java",
+    "code": "class Solution {\n    public boolean isSubsequence(String s, String t) {\n        int i = 0;\n        int j=0;\n        if(s.length() == 0){\n            return true;\n        }\n        while(i<s.length() && j<t.length()){\n            if(s.charAt(i) == t.charAt(j)){\n                i++;\n            }\n                j++;\n    \n        }\n        return i == s.length();\n    }\n}",
+    "submittedAt": "2026-09-29T12:10:16.000Z"
+  },
+  "performance": {
+    "runtime": "2 ms",
+    "runtimePercentile": 73.1497,
+    "memory": "42.9 MB",
+    "memoryPercentile": 45.47999999999998
+  }
+}
