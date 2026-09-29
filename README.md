@@ -146,6 +146,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [is-subsequence](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/is-subsequence/) | Easy |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 | [0058-length-of-last-word](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0058-length-of-last-word/) | Easy |
 ## Array
@@ -175,10 +176,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [bag-of-tokens](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/bag-of-tokens/) | Medium |
 | [remove-duplicates-from-sorted-array-ii](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/remove-duplicates-from-sorted-array-ii/) | Medium |
 | [merge-sorted-array](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/merge-sorted-array/) | Easy |
+| [is-subsequence](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/is-subsequence/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
+| [is-subsequence](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/is-subsequence/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
