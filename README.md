@@ -201,4 +201,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [boats-to-save-people](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/boats-to-save-people/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [combine-two-tables](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/combine-two-tables/) | Easy |
 <!---LeetCode Topics End-->
