@@ -154,6 +154,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [plus-one](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/plus-one/) | Easy |
 | [3sum-closest](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/3sum-closest/) | Medium |
 | [boats-to-save-people](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/boats-to-save-people/) | Medium |
+| [bag-of-tokens](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/bag-of-tokens/) | Medium |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
@@ -169,6 +170,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [3sum-closest](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/3sum-closest/) | Medium |
 | [boats-to-save-people](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/boats-to-save-people/) | Medium |
+| [bag-of-tokens](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/bag-of-tokens/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -178,11 +180,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [boats-to-save-people](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/boats-to-save-people/) | Medium |
+| [bag-of-tokens](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/bag-of-tokens/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3sum-closest](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/3sum-closest/) | Medium |
 | [boats-to-save-people](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/boats-to-save-people/) | Medium |
+| [bag-of-tokens](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/bag-of-tokens/) | Medium |
 ## Timsort
 | Problem Name | Difficulty |
 | ------- | ------- |
