@@ -220,6 +220,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [tree-node](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/tree-node/) | Medium |
 | [movie-rating](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/movie-rating/) | Medium |
 | [trips-and-users](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/trips-and-users/) | Hard |
+| [rank-scores](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/rank-scores/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
