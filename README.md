@@ -149,6 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [is-subsequence](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/is-subsequence/) | Easy |
 | [compare-version-numbers](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/compare-version-numbers/) | Medium |
 | [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
+| [longest-substring-without-repeating-characters](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 | [0058-length-of-last-word](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0058-length-of-last-word/) | Easy |
 ## Array
@@ -219,6 +220,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
 | [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
+| [longest-substring-without-repeating-characters](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/longest-substring-without-repeating-characters/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -227,4 +229,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [longest-substring-without-repeating-characters](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
