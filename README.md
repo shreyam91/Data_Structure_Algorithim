@@ -208,4 +208,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [not-boring-movies](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/not-boring-movies/) | Easy |
 | [find-customer-referee](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/find-customer-referee/) | Easy |
 | [customer-placing-the-largest-number-of-orders](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/customer-placing-the-largest-number-of-orders/) | Easy |
+| [classes-with-at-least-5-students](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/classes-with-at-least-5-students/) | Easy |
 <!---LeetCode Topics End-->
