@@ -169,6 +169,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [plus-one](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/plus-one/) | Easy |
+| [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -180,6 +181,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [merge-sorted-array](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/merge-sorted-array/) | Easy |
 | [is-subsequence](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/is-subsequence/) | Easy |
 | [compare-version-numbers](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/compare-version-numbers/) | Medium |
+| [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -216,8 +218,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
+| [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
+## Floyd's Cycle Finding Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
 <!---LeetCode Topics End-->
