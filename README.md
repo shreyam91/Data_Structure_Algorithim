@@ -207,4 +207,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [combine-two-tables](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/combine-two-tables/) | Easy |
 | [not-boring-movies](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/not-boring-movies/) | Easy |
 | [find-customer-referee](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/find-customer-referee/) | Easy |
+| [customer-placing-the-largest-number-of-orders](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/customer-placing-the-largest-number-of-orders/) | Easy |
 <!---LeetCode Topics End-->
