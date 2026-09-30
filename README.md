@@ -148,6 +148,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
 | [is-subsequence](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/is-subsequence/) | Easy |
 | [compare-version-numbers](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/compare-version-numbers/) | Medium |
+| [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 | [0058-length-of-last-word](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0058-length-of-last-word/) | Easy |
 ## Array
@@ -211,4 +212,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [classes-with-at-least-5-students](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/classes-with-at-least-5-students/) | Easy |
 | [monthly-transactions-i](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/monthly-transactions-i/) | Medium |
 | [user-activity-for-the-past-30-days-i](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/user-activity-for-the-past-30-days-i/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
 <!---LeetCode Topics End-->
