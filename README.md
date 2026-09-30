@@ -210,4 +210,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [customer-placing-the-largest-number-of-orders](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/customer-placing-the-largest-number-of-orders/) | Easy |
 | [classes-with-at-least-5-students](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/classes-with-at-least-5-students/) | Easy |
 | [monthly-transactions-i](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/monthly-transactions-i/) | Medium |
+| [user-activity-for-the-past-30-days-i](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/user-activity-for-the-past-30-days-i/) | Easy |
 <!---LeetCode Topics End-->
