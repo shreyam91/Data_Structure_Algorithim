@@ -217,6 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [user-activity-for-the-past-30-days-i](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/user-activity-for-the-past-30-days-i/) | Easy |
 | [students-and-examinations](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/students-and-examinations/) | Easy |
 | [customers-who-bought-all-products](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/customers-who-bought-all-products/) | Medium |
+| [tree-node](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/tree-node/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
