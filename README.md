@@ -205,4 +205,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [combine-two-tables](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/combine-two-tables/) | Easy |
+| [not-boring-movies](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/not-boring-movies/) | Easy |
 <!---LeetCode Topics End-->
