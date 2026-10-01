@@ -224,6 +224,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [consecutive-numbers](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/consecutive-numbers/) | Medium |
 | [department-highest-salary](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/department-highest-salary/) | Medium |
 | [product-sales-analysis-iii](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/product-sales-analysis-iii/) | Medium |
+| [human-traffic-of-stadium](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/human-traffic-of-stadium/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
