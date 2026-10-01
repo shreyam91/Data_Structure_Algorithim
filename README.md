@@ -222,6 +222,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [trips-and-users](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/trips-and-users/) | Hard |
 | [rank-scores](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/rank-scores/) | Medium |
 | [consecutive-numbers](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/consecutive-numbers/) | Medium |
+| [department-highest-salary](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/department-highest-salary/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
