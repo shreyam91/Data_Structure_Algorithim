@@ -232,6 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [uncommon-words-from-two-sentences](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/uncommon-words-from-two-sentences/) | Easy |
 | [happy-number](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/happy-number/) | Easy |
 | [longest-substring-without-repeating-characters](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/longest-substring-without-repeating-characters/) | Medium |
+| [lru-cache](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/lru-cache/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -252,4 +253,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [valid-parentheses](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/valid-parentheses/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [lru-cache](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/lru-cache/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [lru-cache](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/lru-cache/) | Medium |
+## Doubly-Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [lru-cache](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/lru-cache/) | Medium |
 <!---LeetCode Topics End-->
