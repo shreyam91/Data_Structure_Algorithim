@@ -162,6 +162,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [bag-of-tokens](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/bag-of-tokens/) | Medium |
 | [remove-duplicates-from-sorted-array-ii](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/remove-duplicates-from-sorted-array-ii/) | Medium |
 | [merge-sorted-array](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/merge-sorted-array/) | Easy |
+| [sum-of-squares-of-special-elements](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/sum-of-squares-of-special-elements/) | Easy |
 | [0014-longest-common-prefix](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/0014-longest-common-prefix/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
@@ -265,4 +266,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [lru-cache](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/lru-cache/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [sum-of-squares-of-special-elements](https://github.com/shreyam91/Data_Structure_Algorithim/tree/dsaforge/sum-of-squares-of-special-elements/) | Easy |
 <!---LeetCode Topics End-->
